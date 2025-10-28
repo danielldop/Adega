@@ -1,0 +1,15 @@
+MIT License (com aviso de não modificação)
+
+Copyright (c) 2025 Narga
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to use
+the Software, provided that:
+
+1. Proper attribution is given to the original author.
+2. Modifications, redistribution, or derivative works are NOT permitted without
+   explicit written permission from the author.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
