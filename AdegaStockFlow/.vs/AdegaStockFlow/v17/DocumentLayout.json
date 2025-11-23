@@ -1,38 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\gamer\\source\\repos\\LeandroDecolasDev\\Nova pasta\\StockFlow\\AdegaStockFlow\\",
+  "WorkspaceRootPath": "C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|C:\\Users\\gamer\\source\\repos\\LeandroDecolasDev\\Nova pasta\\StockFlow\\AdegaStockFlow\\adegastockflow\\telavenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|solutionrelative:adegastockflow\\telavenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|c:\\users\\gamer\\source\\repos\\leandrodecolasdev\\nova pasta\\stockflow\\adegastockflow\\adegastockflow\\telapagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|solutionrelative:adegastockflow\\telapagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|C:\\Users\\gamer\\source\\repos\\LeandroDecolasDev\\Nova pasta\\StockFlow\\AdegaStockFlow\\adegastockflow\\menuinicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\adegastockflow\\menuinicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|solutionrelative:adegastockflow\\menuinicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|C:\\Users\\gamer\\source\\repos\\LeandroDecolasDev\\Nova pasta\\StockFlow\\AdegaStockFlow\\adegastockflow\\telalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|solutionrelative:adegastockflow\\telalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\adegastockflow\\telavenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|solutionrelative:adegastockflow\\telavenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|c:\\users\\gamer\\source\\repos\\leandrodecolasdev\\nova pasta\\stockflow\\adegastockflow\\adegastockflow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|solutionrelative:adegastockflow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|C:\\Users\\gamer\\source\\repos\\LeandroDecolasDev\\Nova pasta\\StockFlow\\AdegaStockFlow\\adegastockflow\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|solutionrelative:adegastockflow\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|C:\\Users\\gamer\\source\\repos\\LeandroDecolasDev\\Nova pasta\\StockFlow\\AdegaStockFlow\\adegastockflow\\telavenda.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\adegastockflow\\telavenda.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|solutionrelative:adegastockflow\\telavenda.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|C:\\Users\\gamer\\source\\repos\\LeandroDecolasDev\\Nova pasta\\StockFlow\\AdegaStockFlow\\adegastockflow\\verestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\adegastockflow\\telapagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|solutionrelative:adegastockflow\\telapagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|c:\\users\\aliss\\onedrive\\\u00E1rea de trabalho\\projeto\\stockflow\\adegastockflow\\adegastockflow\\telalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|solutionrelative:adegastockflow\\telalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|c:\\users\\aliss\\onedrive\\\u00E1rea de trabalho\\projeto\\stockflow\\adegastockflow\\adegastockflow\\telalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|solutionrelative:adegastockflow\\telalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\adegastockflow\\verestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|solutionrelative:adegastockflow\\verestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|c:\\users\\aliss\\onedrive\\\u00E1rea de trabalho\\projeto\\stockflow\\adegastockflow\\adegastockflow\\menuinicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|solutionrelative:adegastockflow\\menuinicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\adegastockflow\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|solutionrelative:adegastockflow\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\adegastockflow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|solutionrelative:adegastockflow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,15 +50,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
+              "Title": "MenuInicial.cs",
+              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\MenuInicial.cs",
+              "RelativeDocumentMoniker": "AdegaStockFlow\\MenuInicial.cs",
+              "ToolTip": "C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\MenuInicial.cs",
+              "RelativeToolTip": "AdegaStockFlow\\MenuInicial.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAewB4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T21:22:51.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TelaLogin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\TelaLogin.cs",
+              "RelativeDocumentMoniker": "AdegaStockFlow\\TelaLogin.cs",
+              "ToolTip": "C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\TelaLogin.cs [Design]",
+              "RelativeToolTip": "AdegaStockFlow\\TelaLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T20:51:23.874Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TelaLogin.cs",
+              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\TelaLogin.cs",
+              "RelativeDocumentMoniker": "AdegaStockFlow\\TelaLogin.cs",
+              "ToolTip": "C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\TelaLogin.cs",
+              "RelativeToolTip": "AdegaStockFlow\\TelaLogin.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAASwIcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T18:17:13.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "TelaPagamento.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\gamer\\source\\repos\\LeandroDecolasDev\\Nova pasta\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\TelaPagamento.cs",
+              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\TelaPagamento.cs",
               "RelativeDocumentMoniker": "AdegaStockFlow\\TelaPagamento.cs",
-              "ToolTip": "C:\\Users\\gamer\\source\\repos\\LeandroDecolasDev\\Nova pasta\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\TelaPagamento.cs [Design]",
+              "ToolTip": "C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\TelaPagamento.cs [Design]",
               "RelativeToolTip": "AdegaStockFlow\\TelaPagamento.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T18:00:58.187Z",
@@ -58,24 +108,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "TelaVenda.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\gamer\\source\\repos\\LeandroDecolasDev\\Nova pasta\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\TelaVenda.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\TelaVenda.Designer.cs",
               "RelativeDocumentMoniker": "AdegaStockFlow\\TelaVenda.Designer.cs",
-              "ToolTip": "C:\\Users\\gamer\\source\\repos\\LeandroDecolasDev\\Nova pasta\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\TelaVenda.Designer.cs",
+              "ToolTip": "C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\TelaVenda.Designer.cs",
               "RelativeToolTip": "AdegaStockFlow\\TelaVenda.Designer.cs",
-              "ViewState": "AgIAAOgAAAAAAAAAAAAkwCoBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T17:14:35.431Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TelaVenda.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\gamer\\source\\repos\\LeandroDecolasDev\\Nova pasta\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\TelaVenda.cs",
+              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\TelaVenda.cs",
               "RelativeDocumentMoniker": "AdegaStockFlow\\TelaVenda.cs",
-              "ToolTip": "C:\\Users\\gamer\\source\\repos\\LeandroDecolasDev\\Nova pasta\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\TelaVenda.cs [Design]",
+              "ToolTip": "C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\TelaVenda.cs [Design]",
               "RelativeToolTip": "AdegaStockFlow\\TelaVenda.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T16:41:03.144Z",
@@ -83,11 +133,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MenuInicial.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\gamer\\source\\repos\\LeandroDecolasDev\\Nova pasta\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\MenuInicial.cs",
+              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\MenuInicial.cs",
               "RelativeDocumentMoniker": "AdegaStockFlow\\MenuInicial.cs",
-              "ToolTip": "C:\\Users\\gamer\\source\\repos\\LeandroDecolasDev\\Nova pasta\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\MenuInicial.cs [Design]",
+              "ToolTip": "C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\MenuInicial.cs [Design]",
               "RelativeToolTip": "AdegaStockFlow\\MenuInicial.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T16:37:21.193Z",
@@ -95,51 +145,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "VerEstoque.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\gamer\\source\\repos\\LeandroDecolasDev\\Nova pasta\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\VerEstoque.cs",
+              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\VerEstoque.cs",
               "RelativeDocumentMoniker": "AdegaStockFlow\\VerEstoque.cs",
-              "ToolTip": "C:\\Users\\gamer\\source\\repos\\LeandroDecolasDev\\Nova pasta\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\VerEstoque.cs [Design]",
+              "ToolTip": "C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\VerEstoque.cs [Design]",
               "RelativeToolTip": "AdegaStockFlow\\VerEstoque.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T16:37:18.947Z"
+              "WhenOpened": "2025-11-17T16:37:18.947Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Produto.cs",
-              "DocumentMoniker": "C:\\Users\\gamer\\source\\repos\\LeandroDecolasDev\\Nova pasta\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\Produto.cs",
+              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\Produto.cs",
               "RelativeDocumentMoniker": "AdegaStockFlow\\Produto.cs",
-              "ToolTip": "C:\\Users\\gamer\\source\\repos\\LeandroDecolasDev\\Nova pasta\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\Produto.cs",
+              "ToolTip": "C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\Produto.cs",
               "RelativeToolTip": "AdegaStockFlow\\Produto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T16:37:12.855Z"
+              "WhenOpened": "2025-11-17T16:37:12.855Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\gamer\\source\\repos\\LeandroDecolasDev\\Nova pasta\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\Program.cs",
               "RelativeDocumentMoniker": "AdegaStockFlow\\Program.cs",
-              "ToolTip": "C:\\Users\\gamer\\source\\repos\\LeandroDecolasDev\\Nova pasta\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\Program.cs",
+              "ToolTip": "C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\Program.cs",
               "RelativeToolTip": "AdegaStockFlow\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T16:37:10.257Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TelaLogin.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\gamer\\source\\repos\\LeandroDecolasDev\\Nova pasta\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\TelaLogin.cs",
-              "RelativeDocumentMoniker": "AdegaStockFlow\\TelaLogin.cs",
-              "ToolTip": "C:\\Users\\gamer\\source\\repos\\LeandroDecolasDev\\Nova pasta\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\TelaLogin.cs [Design]",
-              "RelativeToolTip": "AdegaStockFlow\\TelaLogin.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T16:36:55.168Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }

@@ -28,3 +28,20 @@ C:\Users\gamer\source\repos\LeandroDecolasDev\Nova pasta\StockFlow\AdegaStockFlo
 C:\Users\gamer\source\repos\LeandroDecolasDev\Nova pasta\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.pdb
 C:\Users\gamer\source\repos\LeandroDecolasDev\Nova pasta\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.TelaVenda.resources
 C:\Users\gamer\source\repos\LeandroDecolasDev\Nova pasta\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.testes.resources
+C:\Users\aliss\OneDrive\Área de Trabalho\PROJETO\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\AdegaStockFlow.exe.config
+C:\Users\aliss\OneDrive\Área de Trabalho\PROJETO\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\AdegaStockFlow.exe
+C:\Users\aliss\OneDrive\Área de Trabalho\PROJETO\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\AdegaStockFlow.pdb
+C:\Users\aliss\OneDrive\Área de Trabalho\PROJETO\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.csproj.AssemblyReference.cache
+C:\Users\aliss\OneDrive\Área de Trabalho\PROJETO\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.exe.config
+C:\Users\aliss\OneDrive\Área de Trabalho\PROJETO\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.MenuInicial.resources
+C:\Users\aliss\OneDrive\Área de Trabalho\PROJETO\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.TelaLogin.resources
+C:\Users\aliss\OneDrive\Área de Trabalho\PROJETO\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.Properties.Resources.resources
+C:\Users\aliss\OneDrive\Área de Trabalho\PROJETO\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.TelaPagamento.resources
+C:\Users\aliss\OneDrive\Área de Trabalho\PROJETO\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.TelaRecuperarSenha.resources
+C:\Users\aliss\OneDrive\Área de Trabalho\PROJETO\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.TelaVenda.resources
+C:\Users\aliss\OneDrive\Área de Trabalho\PROJETO\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.testes.resources
+C:\Users\aliss\OneDrive\Área de Trabalho\PROJETO\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.VerEstoque.resources
+C:\Users\aliss\OneDrive\Área de Trabalho\PROJETO\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.csproj.GenerateResource.cache
+C:\Users\aliss\OneDrive\Área de Trabalho\PROJETO\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.csproj.CoreCompileInputs.cache
+C:\Users\aliss\OneDrive\Área de Trabalho\PROJETO\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.exe
+C:\Users\aliss\OneDrive\Área de Trabalho\PROJETO\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.pdb

@@ -121,6 +121,16 @@ namespace AdegaStockFlow
         {
             Application.Exit();
         }
+
+        private void lblStockFlow_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_sair_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
 // AppendFormat
