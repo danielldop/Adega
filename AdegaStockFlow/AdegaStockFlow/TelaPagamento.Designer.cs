@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaPagamento));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.ColunaCod = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -41,13 +42,13 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.cbxFormaPagamento = new System.Windows.Forms.ComboBox();
-            this.txtSubtotal = new System.Windows.Forms.TextBox();
-            this.txtDesconto = new System.Windows.Forms.TextBox();
-            this.txtTotal = new System.Windows.Forms.TextBox();
-            this.txtValorRecebido = new System.Windows.Forms.TextBox();
-            this.txtTroco = new System.Windows.Forms.TextBox();
             this.btnFinalizarPagamento = new System.Windows.Forms.Button();
             this.btnCancelarPagamento = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -177,49 +178,10 @@
             this.cbxFormaPagamento.Size = new System.Drawing.Size(304, 28);
             this.cbxFormaPagamento.TabIndex = 7;
             // 
-            // txtSubtotal
-            // 
-            this.txtSubtotal.Location = new System.Drawing.Point(536, 402);
-            this.txtSubtotal.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtSubtotal.Name = "txtSubtotal";
-            this.txtSubtotal.Size = new System.Drawing.Size(148, 26);
-            this.txtSubtotal.TabIndex = 8;
-            // 
-            // txtDesconto
-            // 
-            this.txtDesconto.Location = new System.Drawing.Point(536, 442);
-            this.txtDesconto.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtDesconto.Name = "txtDesconto";
-            this.txtDesconto.Size = new System.Drawing.Size(148, 26);
-            this.txtDesconto.TabIndex = 9;
-            // 
-            // txtTotal
-            // 
-            this.txtTotal.Location = new System.Drawing.Point(536, 482);
-            this.txtTotal.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtTotal.Name = "txtTotal";
-            this.txtTotal.Size = new System.Drawing.Size(148, 26);
-            this.txtTotal.TabIndex = 10;
-            // 
-            // txtValorRecebido
-            // 
-            this.txtValorRecebido.Location = new System.Drawing.Point(536, 522);
-            this.txtValorRecebido.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtValorRecebido.Name = "txtValorRecebido";
-            this.txtValorRecebido.Size = new System.Drawing.Size(148, 26);
-            this.txtValorRecebido.TabIndex = 11;
-            // 
-            // txtTroco
-            // 
-            this.txtTroco.Location = new System.Drawing.Point(536, 562);
-            this.txtTroco.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtTroco.Name = "txtTroco";
-            this.txtTroco.Size = new System.Drawing.Size(148, 26);
-            this.txtTroco.TabIndex = 12;
-            // 
             // btnFinalizarPagamento
             // 
-            this.btnFinalizarPagamento.Location = new System.Drawing.Point(152, 628);
+            this.btnFinalizarPagamento.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFinalizarPagamento.Location = new System.Drawing.Point(143, 628);
             this.btnFinalizarPagamento.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnFinalizarPagamento.Name = "btnFinalizarPagamento";
             this.btnFinalizarPagamento.Size = new System.Drawing.Size(188, 49);
@@ -229,26 +191,77 @@
             // 
             // btnCancelarPagamento
             // 
-            this.btnCancelarPagamento.Location = new System.Drawing.Point(348, 628);
+            this.btnCancelarPagamento.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancelarPagamento.Location = new System.Drawing.Point(380, 628);
             this.btnCancelarPagamento.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCancelarPagamento.Name = "btnCancelarPagamento";
-            this.btnCancelarPagamento.Size = new System.Drawing.Size(188, 48);
+            this.btnCancelarPagamento.Size = new System.Drawing.Size(188, 49);
             this.btnCancelarPagamento.TabIndex = 14;
             this.btnCancelarPagamento.Text = "Cancelar";
             this.btnCancelarPagamento.UseVisualStyleBackColor = true;
+            // 
+            // label7
+            // 
+            this.label7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label7.Location = new System.Drawing.Point(536, 446);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(148, 33);
+            this.label7.TabIndex = 15;
+            this.label7.Text = "-";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label8
+            // 
+            this.label8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label8.Location = new System.Drawing.Point(536, 566);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(148, 33);
+            this.label8.TabIndex = 16;
+            this.label8.Text = "-";
+            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label9
+            // 
+            this.label9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label9.Location = new System.Drawing.Point(536, 526);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(148, 33);
+            this.label9.TabIndex = 17;
+            this.label9.Text = "-";
+            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label10
+            // 
+            this.label10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label10.Location = new System.Drawing.Point(536, 486);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(148, 33);
+            this.label10.TabIndex = 18;
+            this.label10.Text = "-";
+            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label11
+            // 
+            this.label11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label11.Location = new System.Drawing.Point(536, 406);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(148, 33);
+            this.label11.TabIndex = 19;
+            this.label11.Text = "-";
+            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // TelaPagamento
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(706, 695);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.btnCancelarPagamento);
             this.Controls.Add(this.btnFinalizarPagamento);
-            this.Controls.Add(this.txtTroco);
-            this.Controls.Add(this.txtValorRecebido);
-            this.Controls.Add(this.txtTotal);
-            this.Controls.Add(this.txtDesconto);
-            this.Controls.Add(this.txtSubtotal);
             this.Controls.Add(this.cbxFormaPagamento);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -257,9 +270,10 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "TelaPagamento";
-            this.Text = "Pagamento";
+            this.Text = "  PAGAMENTO";
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
@@ -282,12 +296,12 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.ComboBox cbxFormaPagamento;
-        private System.Windows.Forms.TextBox txtSubtotal;
-        private System.Windows.Forms.TextBox txtDesconto;
-        private System.Windows.Forms.TextBox txtTotal;
-        private System.Windows.Forms.TextBox txtValorRecebido;
-        private System.Windows.Forms.TextBox txtTroco;
         private System.Windows.Forms.Button btnFinalizarPagamento;
         private System.Windows.Forms.Button btnCancelarPagamento;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label11;
     }
 }

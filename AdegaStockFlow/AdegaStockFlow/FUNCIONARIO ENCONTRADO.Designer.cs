@@ -28,24 +28,29 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FUNCIONARIO_ENCONTRADO));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.lb_nome_buscaFunc = new System.Windows.Forms.Label();
             this.lb_Id_buscaFunc = new System.Windows.Forms.Label();
             this.lb_nome_cadastroFunc = new System.Windows.Forms.Label();
             this.lb_cargo_cadastroFunc = new System.Windows.Forms.Label();
             this.lb_senha_cadastroFunc = new System.Windows.Forms.Label();
             this.lb_id_CadastroFunc = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.button3);
+            this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.label4);
@@ -66,6 +71,84 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "INFORMACOES DO FUNCIONARIO";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(665, 269);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(105, 40);
+            this.button3.TabIndex = 45;
+            this.button3.Text = "ALTERAR";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // label5
+            // 
+            this.label5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label5.Location = new System.Drawing.Point(382, 269);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(262, 40);
+            this.label5.TabIndex = 44;
+            this.label5.Text = "-";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(400, 336);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(343, 62);
+            this.button2.TabIndex = 43;
+            this.button2.Text = "SAIR";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(30, 336);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(343, 62);
+            this.button1.TabIndex = 42;
+            this.button1.Text = "DELETAR FUNCIONARIO";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // label4
+            // 
+            this.label4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label4.Location = new System.Drawing.Point(109, 129);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(535, 40);
+            this.label4.TabIndex = 41;
+            this.label4.Text = "-";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label3
+            // 
+            this.label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label3.Location = new System.Drawing.Point(111, 269);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(262, 40);
+            this.label3.TabIndex = 40;
+            this.label3.Text = "-";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label2
+            // 
+            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label2.Location = new System.Drawing.Point(111, 197);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(304, 40);
+            this.label2.TabIndex = 39;
+            this.label2.Text = "-";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label1
+            // 
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label1.Location = new System.Drawing.Point(109, 61);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(216, 40);
+            this.label1.TabIndex = 38;
+            this.label1.Text = "-";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lb_nome_buscaFunc
             // 
@@ -127,73 +210,16 @@
             this.lb_id_CadastroFunc.TabIndex = 32;
             this.lb_id_CadastroFunc.Text = "ID:";
             // 
-            // label1
-            // 
-            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label1.Location = new System.Drawing.Point(109, 61);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(216, 40);
-            this.label1.TabIndex = 38;
-            this.label1.Text = "-";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label2
-            // 
-            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label2.Location = new System.Drawing.Point(111, 197);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(304, 40);
-            this.label2.TabIndex = 39;
-            this.label2.Text = "-";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label3
-            // 
-            this.label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label3.Location = new System.Drawing.Point(111, 269);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(304, 40);
-            this.label3.TabIndex = 40;
-            this.label3.Text = "-";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label4
-            // 
-            this.label4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label4.Location = new System.Drawing.Point(109, 129);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(535, 40);
-            this.label4.TabIndex = 41;
-            this.label4.Text = "-";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(30, 336);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(343, 62);
-            this.button1.TabIndex = 42;
-            this.button1.Text = "DELETAR FUNCIONARIO";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(400, 336);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(343, 62);
-            this.button2.TabIndex = 43;
-            this.button2.Text = "SAIR";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
             // FUNCIONARIO_ENCONTRADO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.groupBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FUNCIONARIO_ENCONTRADO";
-            this.Text = "D";
+            this.Text = "  DADOS DO CADASTRO";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -215,5 +241,7 @@
         private System.Windows.Forms.Label lb_id_CadastroFunc;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label label5;
     }
 }

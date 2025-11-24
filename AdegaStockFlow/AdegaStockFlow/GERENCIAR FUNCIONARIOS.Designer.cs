@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GERENCIAR_FUNCIONARIOS));
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tb_nome_buscaFunc = new System.Windows.Forms.TextBox();
@@ -91,7 +92,7 @@
             // tb_nome_buscaFunc
             // 
             this.tb_nome_buscaFunc.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tb_nome_buscaFunc.Location = new System.Drawing.Point(108, 152);
+            this.tb_nome_buscaFunc.Location = new System.Drawing.Point(108, 154);
             this.tb_nome_buscaFunc.Name = "tb_nome_buscaFunc";
             this.tb_nome_buscaFunc.Size = new System.Drawing.Size(512, 26);
             this.tb_nome_buscaFunc.TabIndex = 32;
@@ -109,7 +110,7 @@
             // tb_id_buscaFunc
             // 
             this.tb_id_buscaFunc.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tb_id_buscaFunc.Location = new System.Drawing.Point(108, 96);
+            this.tb_id_buscaFunc.Location = new System.Drawing.Point(108, 95);
             this.tb_id_buscaFunc.Name = "tb_id_buscaFunc";
             this.tb_id_buscaFunc.Size = new System.Drawing.Size(148, 26);
             this.tb_id_buscaFunc.TabIndex = 30;
@@ -244,10 +245,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(817, 494);
+            this.ClientSize = new System.Drawing.Size(799, 446);
             this.Controls.Add(this.groupBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "GERENCIAR_FUNCIONARIOS";
-            this.Text = "GERENCIAR FUNCIONARIOS";
+            this.Text = "  GERENCIAR FUNCIONARIOS";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
