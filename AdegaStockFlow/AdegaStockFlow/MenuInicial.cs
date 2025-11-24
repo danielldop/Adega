@@ -98,5 +98,14 @@ namespace AdegaStockFlow
             janela.Visible = true;
             this.Close();
         }
+
+        private void btnGerenciarFuncionario_Click(object sender, EventArgs e)
+        {
+            GERENCIAR_FUNCIONARIOS func = new GERENCIAR_FUNCIONARIOS();
+            func.Show();
+
+
+
+        }
     }
 }

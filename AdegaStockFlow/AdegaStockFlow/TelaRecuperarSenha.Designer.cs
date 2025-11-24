@@ -39,10 +39,10 @@
             // txtBoxBanda
             // 
             this.txtBoxBanda.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBoxBanda.Location = new System.Drawing.Point(237, 254);
-            this.txtBoxBanda.Margin = new System.Windows.Forms.Padding(4);
+            this.txtBoxBanda.Location = new System.Drawing.Point(267, 318);
+            this.txtBoxBanda.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtBoxBanda.Name = "txtBoxBanda";
-            this.txtBoxBanda.Size = new System.Drawing.Size(340, 46);
+            this.txtBoxBanda.Size = new System.Drawing.Size(382, 53);
             this.txtBoxBanda.TabIndex = 3;
             // 
             // label4
@@ -51,20 +51,20 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(232, 221);
+            this.label4.Location = new System.Drawing.Point(281, 281);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(293, 29);
+            this.label4.Size = new System.Drawing.Size(342, 32);
             this.label4.TabIndex = 6;
             this.label4.Text = "Digite o ID do seu Usuário";
             // 
             // btnVoltar
             // 
             this.btnVoltar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVoltar.Location = new System.Drawing.Point(313, 420);
-            this.btnVoltar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnVoltar.Location = new System.Drawing.Point(336, 525);
+            this.btnVoltar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnVoltar.Name = "btnVoltar";
-            this.btnVoltar.Size = new System.Drawing.Size(203, 46);
+            this.btnVoltar.Size = new System.Drawing.Size(228, 58);
             this.btnVoltar.TabIndex = 8;
             this.btnVoltar.Text = "Voltar";
             this.btnVoltar.UseVisualStyleBackColor = true;
@@ -73,10 +73,10 @@
             // btnRecuperar
             // 
             this.btnRecuperar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRecuperar.Location = new System.Drawing.Point(346, 308);
-            this.btnRecuperar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnRecuperar.Location = new System.Drawing.Point(376, 394);
+            this.btnRecuperar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnRecuperar.Name = "btnRecuperar";
-            this.btnRecuperar.Size = new System.Drawing.Size(145, 46);
+            this.btnRecuperar.Size = new System.Drawing.Size(163, 58);
             this.btnRecuperar.TabIndex = 9;
             this.btnRecuperar.Text = "Recuperar";
             this.btnRecuperar.UseVisualStyleBackColor = true;
@@ -86,25 +86,25 @@
             // 
             this.lblMostraSenha.AutoSize = true;
             this.lblMostraSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMostraSenha.Location = new System.Drawing.Point(341, 79);
+            this.lblMostraSenha.Location = new System.Drawing.Point(384, 99);
             this.lblMostraSenha.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMostraSenha.Name = "lblMostraSenha";
-            this.lblMostraSenha.Size = new System.Drawing.Size(0, 29);
+            this.lblMostraSenha.Size = new System.Drawing.Size(0, 33);
             this.lblMostraSenha.TabIndex = 10;
             // 
             // TelaRecuperarSenha
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(831, 554);
+            this.ClientSize = new System.Drawing.Size(935, 692);
             this.Controls.Add(this.lblMostraSenha);
             this.Controls.Add(this.btnRecuperar);
             this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtBoxBanda);
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "TelaRecuperarSenha";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Recuperar Senha";

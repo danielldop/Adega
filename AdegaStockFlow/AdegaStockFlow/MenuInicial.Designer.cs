@@ -171,8 +171,9 @@
             this.btnGerenciarFuncionario.Name = "btnGerenciarFuncionario";
             this.btnGerenciarFuncionario.Size = new System.Drawing.Size(312, 57);
             this.btnGerenciarFuncionario.TabIndex = 17;
-            this.btnGerenciarFuncionario.Text = "Gerenciar Funcionário";
+            this.btnGerenciarFuncionario.Text = "Gerenciar Funcionários";
             this.btnGerenciarFuncionario.UseVisualStyleBackColor = true;
+            this.btnGerenciarFuncionario.Click += new System.EventHandler(this.btnGerenciarFuncionario_Click);
             // 
             // btnHistoricoDesperdicio
             // 

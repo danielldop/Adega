@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FUNCIONARIO ENCONTRADO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FUNCIONARIO ENCONTRADO.Designer.cs">
+      <DependentUpon>FUNCIONARIO ENCONTRADO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GERENCIAR FUNCIONARIOS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GERENCIAR FUNCIONARIOS.Designer.cs">
+      <DependentUpon>GERENCIAR FUNCIONARIOS.cs</DependentUpon>
+    </Compile>
     <Compile Include="MenuInicial.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,6 +104,12 @@
     <Compile Include="VerEstoque.Designer.cs">
       <DependentUpon>VerEstoque.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="FUNCIONARIO ENCONTRADO.resx">
+      <DependentUpon>FUNCIONARIO ENCONTRADO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GERENCIAR FUNCIONARIOS.resx">
+      <DependentUpon>GERENCIAR FUNCIONARIOS.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MenuInicial.resx">
       <DependentUpon>MenuInicial.cs</DependentUpon>
     </EmbeddedResource>

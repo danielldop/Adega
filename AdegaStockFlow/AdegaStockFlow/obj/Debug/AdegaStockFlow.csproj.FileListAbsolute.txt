@@ -45,3 +45,5 @@ C:\Users\aliss\OneDrive\Área de Trabalho\PROJETO\StockFlow\AdegaStockFlow\Adega
 C:\Users\aliss\OneDrive\Área de Trabalho\PROJETO\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.csproj.CoreCompileInputs.cache
 C:\Users\aliss\OneDrive\Área de Trabalho\PROJETO\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.exe
 C:\Users\aliss\OneDrive\Área de Trabalho\PROJETO\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.pdb
+C:\Users\aliss\OneDrive\Área de Trabalho\Projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.GERENCIAR_FUNCIONARIOS.resources
+C:\Users\aliss\OneDrive\Área de Trabalho\Projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.FUNCIONARIO_ENCONTRADO.resources
