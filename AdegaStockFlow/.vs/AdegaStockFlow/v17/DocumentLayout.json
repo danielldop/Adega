@@ -1,42 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\",
+  "WorkspaceRootPath": "C:\\Users\\gamer\\OneDrive\\\u00C1rea de Trabalho\\codigo projeto\\StockFlow\\AdegaStockFlow\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|c:\\users\\aliss\\onedrive\\\u00E1rea de trabalho\\projeto\\stockflow\\adegastockflow\\adegastockflow\\telapagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|solutionrelative:adegastockflow\\telapagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|c:\\users\\gamer\\onedrive\\\u00E1rea de trabalho\\codigo projeto\\stockflow\\adegastockflow\\adegastockflow\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|solutionrelative:adegastockflow\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|c:\\users\\aliss\\onedrive\\\u00E1rea de trabalho\\projeto\\stockflow\\adegastockflow\\adegastockflow\\telalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|solutionrelative:adegastockflow\\telalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\adegastockflow\\funcionario encontrado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|solutionrelative:adegastockflow\\funcionario encontrado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\adegastockflow\\gerenciar funcionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|solutionrelative:adegastockflow\\gerenciar funcionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|c:\\users\\aliss\\onedrive\\\u00E1rea de trabalho\\projeto\\stockflow\\adegastockflow\\adegastockflow\\gerenciar funcionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|solutionrelative:adegastockflow\\gerenciar funcionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\adegastockflow\\menuinicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|solutionrelative:adegastockflow\\menuinicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\adegastockflow\\funcionario encontrado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|solutionrelative:adegastockflow\\funcionario encontrado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\adegastockflow\\menuinicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|solutionrelative:adegastockflow\\menuinicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\adegastockflow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|solutionrelative:adegastockflow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|c:\\users\\gamer\\onedrive\\\u00E1rea de trabalho\\codigo projeto\\stockflow\\adegastockflow\\adegastockflow\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|solutionrelative:adegastockflow\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,123 +18,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TelaPagamento.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\TelaPagamento.cs",
-              "RelativeDocumentMoniker": "AdegaStockFlow\\TelaPagamento.cs",
-              "ToolTip": "C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\TelaPagamento.cs [Design]",
-              "RelativeToolTip": "AdegaStockFlow\\TelaPagamento.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T20:14:23.752Z",
-              "EditorCaption": " [Design]"
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\gamer\\OneDrive\\\u00C1rea de Trabalho\\codigo projeto\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\.gitignore",
+              "RelativeDocumentMoniker": "AdegaStockFlow\\.gitignore",
+              "ToolTip": "C:\\Users\\gamer\\OneDrive\\\u00C1rea de Trabalho\\codigo projeto\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\.gitignore",
+              "RelativeToolTip": "AdegaStockFlow\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-29T17:25:45.504Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TelaLogin.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\TelaLogin.cs",
-              "RelativeDocumentMoniker": "AdegaStockFlow\\TelaLogin.cs",
-              "ToolTip": "C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\TelaLogin.cs [Design]",
-              "RelativeToolTip": "AdegaStockFlow\\TelaLogin.cs [Design]",
+              "Title": "FrmClientes.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\gamer\\OneDrive\\\u00C1rea de Trabalho\\codigo projeto\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\FrmClientes.cs",
+              "RelativeDocumentMoniker": "AdegaStockFlow\\FrmClientes.cs",
+              "ToolTip": "C:\\Users\\gamer\\OneDrive\\\u00C1rea de Trabalho\\codigo projeto\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\FrmClientes.cs [Design]",
+              "RelativeToolTip": "AdegaStockFlow\\FrmClientes.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T20:13:46.216Z",
+              "WhenOpened": "2025-11-29T03:44:51.458Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FUNCIONARIO ENCONTRADO.cs",
-              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\FUNCIONARIO ENCONTRADO.cs",
-              "RelativeDocumentMoniker": "AdegaStockFlow\\FUNCIONARIO ENCONTRADO.cs",
-              "ToolTip": "C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\FUNCIONARIO ENCONTRADO.cs",
-              "RelativeToolTip": "AdegaStockFlow\\FUNCIONARIO ENCONTRADO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T00:05:40.144Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FUNCIONARIO ENCONTRADO.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\FUNCIONARIO ENCONTRADO.cs",
-              "RelativeDocumentMoniker": "AdegaStockFlow\\FUNCIONARIO ENCONTRADO.cs",
-              "ToolTip": "C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\FUNCIONARIO ENCONTRADO.cs [Design]",
-              "RelativeToolTip": "AdegaStockFlow\\FUNCIONARIO ENCONTRADO.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T23:59:14.433Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GERENCIAR FUNCIONARIOS.cs",
-              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\GERENCIAR FUNCIONARIOS.cs",
-              "RelativeDocumentMoniker": "AdegaStockFlow\\GERENCIAR FUNCIONARIOS.cs",
-              "ToolTip": "C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\GERENCIAR FUNCIONARIOS.cs",
-              "RelativeToolTip": "AdegaStockFlow\\GERENCIAR FUNCIONARIOS.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T23:10:46.652Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GERENCIAR FUNCIONARIOS.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\GERENCIAR FUNCIONARIOS.cs",
-              "RelativeDocumentMoniker": "AdegaStockFlow\\GERENCIAR FUNCIONARIOS.cs",
-              "ToolTip": "C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\GERENCIAR FUNCIONARIOS.cs [Design]",
-              "RelativeToolTip": "AdegaStockFlow\\GERENCIAR FUNCIONARIOS.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T22:55:28.093Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MenuInicial.cs",
-              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\MenuInicial.cs",
-              "RelativeDocumentMoniker": "AdegaStockFlow\\MenuInicial.cs",
-              "ToolTip": "C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\MenuInicial.cs",
-              "RelativeToolTip": "AdegaStockFlow\\MenuInicial.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAiwGsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T21:22:51.558Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MenuInicial.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\MenuInicial.cs",
-              "RelativeDocumentMoniker": "AdegaStockFlow\\MenuInicial.cs",
-              "ToolTip": "C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\MenuInicial.cs [Design]",
-              "RelativeToolTip": "AdegaStockFlow\\MenuInicial.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T16:37:21.193Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\Program.cs",
-              "RelativeDocumentMoniker": "AdegaStockFlow\\Program.cs",
-              "ToolTip": "C:\\Users\\aliss\\OneDrive\\\u00C1rea de Trabalho\\PROJETO\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\Program.cs",
-              "RelativeToolTip": "AdegaStockFlow\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T16:37:10.257Z",
-              "EditorCaption": ""
             }
           ]
         }

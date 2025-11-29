@@ -15,6 +15,14 @@ namespace AdegaStockFlow
         public TelaPagamento()
         {
             InitializeComponent();
+
+            dataGridView1.AllowUserToAddRows = false; //esconde a primeira tabela em branco do datagrid
+            dataGridView1.RowHeadersVisible = false;
+        }
+
+        private void btnCancelarPagamento_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

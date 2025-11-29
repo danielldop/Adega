@@ -7,40 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace AdegaStockFlow
 {
     public partial class TelaLogin : Form
     {
-        List<Usuario> listusuario = new List<Usuario>();
-        List<Produto> listproduto = new List<Produto>();
-
         public TelaLogin()
         {
             InitializeComponent();
-
-            
-
-            listusuario.Add(new Usuario().CadastrarUsuario(111,"Jeff","123",2));
-            listusuario.Add(new Usuario().CadastrarUsuario(222, "Fabio", "456", 1));
-            listusuario.Add(new Usuario().CadastrarUsuario(333, "Marley", "789", 1));
-
-            listproduto.Add(new Produto().CadastrarProduto(1, "Coca Cola","350ml", "Bebida", "Gaseificada", 48, "30/12/2026",8.5,10.5));
-            listproduto.Add(new Produto().CadastrarProduto(2, "Jack Deniels","1L","Bebida", "Alcool",24,"N/A", 120.20,140.99));
-            listproduto.Add(new Produto().CadastrarProduto(3, "Agua", "300ml","Bebida","Natural",36, "05/10/2026",2.5,4.5));
-
-            lblStockFlow.Parent = this;
-            lblStockFlow.BackColor = Color.Transparent;
-
-
-
-
-            txtBoxSenha.UseSystemPasswordChar = false;
-            txtBoxUser.Text = "Digite seu usuário";
-            txtBoxSenha.Text = "Digite sua senha";
-
-            txtBoxUser.ForeColor = Color.LightGray;
-            txtBoxSenha.ForeColor = Color.LightGray;
         }
 
         private void txtBoxUser_Enter(object sender, EventArgs e)
@@ -82,32 +57,65 @@ namespace AdegaStockFlow
 
         private void lblRecuperarSenha_Click(object sender, EventArgs e)
         {
-            TelaRecuperarSenha janela = new TelaRecuperarSenha(listusuario);
+            // TelaRecuperarSenha janela = new TelaRecuperarSenha();
 
 
-            this.Visible = false;
-            janela.Show();
+           // this.Visible = false;
+           // janela.Show();
         }
 
         //Passagem de tela:
         private void btnEntrar_Click(object sender, EventArgs e)
         {   
-            foreach (var usuario in listusuario) { 
+            string login = txtBoxUser.Text.Trim();
+            string senha = txtBoxSenha.Text.Trim();
 
-                if (txtBoxUser.Text == usuario.getNome())
+            if (login == "" || senha == "")
+            {
+                MessageBox.Show("Informe login e senha!");
+                return;
+            }
+
+            using (var conexao = Banco.GetConnection())
+            {
+                try
                 {
-                    if ((txtBoxSenha.Text == usuario.getSenha()) && (txtBoxUser.Text == usuario.getNome()))
-                    {
-                        int id = usuario.getId();
-                        MenuInicial janela = new MenuInicial(listusuario, listproduto, id);
+                    conexao.Open();
 
-                        janela.Show();
-                        this.Visible = false;
-                    }
-                    else
+                    string sql = @"
+                        SELECT cod_usuario, nome_usuario, cargo_usuario, nivel_usuario
+                        FROM usuarios
+                        WHERE login_usuario = @login
+                          AND senha_usuario = @senha;";
+
+                    using (var cmd = new MySqlCommand(sql, conexao))
                     {
-                        MessageBox.Show("Senha Inválida", "Error", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                        cmd.Parameters.AddWithValue("@login", login);
+                        cmd.Parameters.AddWithValue("@senha", senha);
+
+                        using (var reader = cmd.ExecuteReader())
+                        {
+                            if (reader.Read())
+                            {
+                                int idUsuario = reader.GetInt32("cod_usuario");
+                                string nome = reader.GetString("nome_usuario");
+                                string cargo = reader.GetString("cargo_usuario");
+                                string nivel = reader.GetString("nivel_usuario");
+
+                                MenuInicial menu = new MenuInicial(idUsuario);
+                                menu.Show();
+                                this.Hide();
+                            }
+                            else
+                            {
+                                MessageBox.Show("Login ou senha inválidos!");
+                            }
+                        }
                     }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Erro ao conectar: " + ex.Message);
                 }
             }
         }

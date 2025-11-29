@@ -47,3 +47,112 @@ C:\Users\aliss\OneDrive\Área de Trabalho\PROJETO\StockFlow\AdegaStockFlow\Adega
 C:\Users\aliss\OneDrive\Área de Trabalho\PROJETO\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.pdb
 C:\Users\aliss\OneDrive\Área de Trabalho\Projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.GERENCIAR_FUNCIONARIOS.resources
 C:\Users\aliss\OneDrive\Área de Trabalho\Projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.FUNCIONARIO_ENCONTRADO.resources
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\AdegaStockFlow.exe
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\AdegaStockFlow.exe.config
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.csproj.AssemblyReference.cache
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.FUNCIONARIO_ENCONTRADO.resources
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.GERENCIAR_FUNCIONARIOS.resources
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.MenuInicial.resources
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.TelaLogin.resources
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.Properties.Resources.resources
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.TelaPagamento.resources
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.TelaRecuperarSenha.resources
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.FrmVenda.resources
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.VerEstoque.resources
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.csproj.GenerateResource.cache
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.csproj.CoreCompileInputs.cache
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.exe
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.pdb
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.exe.config
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\AdegaStockFlow.pdb
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.FrmDesperdicio.resources
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.FrmGerenciarProdutos.resources
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\Google.Protobuf.dll
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\MySql.Data.dll
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\System.Buffers.dll
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\System.IO.Pipelines.dll
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\System.Memory.dll
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\ZstdSharp.dll
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\Google.Protobuf.pdb
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\Google.Protobuf.xml
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\MySql.Data.xml
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\System.Buffers.xml
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\System.IO.Pipelines.xml
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\System.Memory.xml
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.FrmConsultaEstoque.resources
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.FrmEditarProdutos.resources
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.FrmExcluirProduto.resources
+C:\Users\gamer\Source\Repos\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaSto.26A17D4F.Up2Date
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\AdegaStockFlow.exe.config
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\AdegaStockFlow.exe
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\Google.Protobuf.dll
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\MySql.Data.dll
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\System.Buffers.dll
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\System.IO.Pipelines.dll
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\System.Memory.dll
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\ZstdSharp.dll
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\Google.Protobuf.pdb
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\Google.Protobuf.xml
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\MySql.Data.xml
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\System.Buffers.xml
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\System.IO.Pipelines.xml
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\System.Memory.xml
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.csproj.AssemblyReference.cache
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.exe.config
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.FrmConsultaEstoque.resources
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.FrmDesperdicio.resources
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.FrmEditarProdutos.resources
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.FrmExcluirProduto.resources
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.FrmGerenciarProdutos.resources
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.FUNCIONARIO_ENCONTRADO.resources
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.GERENCIAR_FUNCIONARIOS.resources
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.MenuInicial.resources
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.TelaLogin.resources
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.Properties.Resources.resources
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.TelaPagamento.resources
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.TelaRecuperarSenha.resources
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.FrmVenda.resources
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.csproj.GenerateResource.cache
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.csproj.CoreCompileInputs.cache
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaSto.26A17D4F.Up2Date
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.exe
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.pdb
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\bin\Debug\AdegaStockFlow.pdb
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.FrmCadastrarCliente.resources
+C:\Users\gamer\OneDrive\Área de Trabalho\codigo projeto\StockFlow\AdegaStockFlow\AdegaStockFlow\obj\Debug\AdegaStockFlow.FrmClientes.resources

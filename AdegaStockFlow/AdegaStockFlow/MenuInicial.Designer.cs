@@ -32,10 +32,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.lblCargo = new System.Windows.Forms.Label();
-            this.btnCadastrarProd = new System.Windows.Forms.Button();
+            this.btnGerenciarProdutos = new System.Windows.Forms.Button();
             this.btnVenda = new System.Windows.Forms.Button();
-            this.btnCadastrarCliente = new System.Windows.Forms.Button();
-            this.btnVerEstoque = new System.Windows.Forms.Button();
             this.btnClientes = new System.Windows.Forms.Button();
             this.btnHistoricoVendas = new System.Windows.Forms.Button();
             this.btnGerenciarFuncionario = new System.Windows.Forms.Button();
@@ -55,10 +53,9 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Script MT Bold", 100F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(23, -20);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(15, -13);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1005, 240);
+            this.label1.Size = new System.Drawing.Size(675, 162);
             this.label1.TabIndex = 1;
             this.label1.Text = "Bem-Vindo";
             // 
@@ -69,10 +66,9 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(188, 325);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(125, 211);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(52, 33);
+            this.label3.Size = new System.Drawing.Size(32, 24);
             this.label3.TabIndex = 5;
             this.label3.Text = "ID:";
             // 
@@ -83,93 +79,66 @@
             this.lblCargo.BackColor = System.Drawing.Color.Transparent;
             this.lblCargo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCargo.ForeColor = System.Drawing.Color.White;
-            this.lblCargo.Location = new System.Drawing.Point(296, 271);
-            this.lblCargo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblCargo.Location = new System.Drawing.Point(197, 176);
             this.lblCargo.Name = "lblCargo";
-            this.lblCargo.Size = new System.Drawing.Size(0, 33);
+            this.lblCargo.Size = new System.Drawing.Size(0, 24);
             this.lblCargo.TabIndex = 6;
             // 
-            // btnCadastrarProd
+            // btnGerenciarProdutos
             // 
-            this.btnCadastrarProd.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnCadastrarProd.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCadastrarProd.Location = new System.Drawing.Point(194, 457);
-            this.btnCadastrarProd.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnCadastrarProd.Name = "btnCadastrarProd";
-            this.btnCadastrarProd.Size = new System.Drawing.Size(312, 57);
-            this.btnCadastrarProd.TabIndex = 10;
-            this.btnCadastrarProd.Text = "Gerenciar Produtos";
-            this.btnCadastrarProd.UseVisualStyleBackColor = true;
+            this.btnGerenciarProdutos.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnGerenciarProdutos.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGerenciarProdutos.Location = new System.Drawing.Point(129, 314);
+            this.btnGerenciarProdutos.Name = "btnGerenciarProdutos";
+            this.btnGerenciarProdutos.Size = new System.Drawing.Size(208, 37);
+            this.btnGerenciarProdutos.TabIndex = 10;
+            this.btnGerenciarProdutos.Text = "Gerenciar Produtos";
+            this.btnGerenciarProdutos.UseVisualStyleBackColor = true;
+            this.btnGerenciarProdutos.Click += new System.EventHandler(this.btnGerenciarProdutos_Click);
             // 
             // btnVenda
             // 
             this.btnVenda.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnVenda.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVenda.Location = new System.Drawing.Point(194, 391);
-            this.btnVenda.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnVenda.Location = new System.Drawing.Point(129, 271);
             this.btnVenda.Name = "btnVenda";
-            this.btnVenda.Size = new System.Drawing.Size(312, 57);
+            this.btnVenda.Size = new System.Drawing.Size(208, 37);
             this.btnVenda.TabIndex = 11;
             this.btnVenda.Text = "Realizar Venda";
             this.btnVenda.UseVisualStyleBackColor = true;
-            // 
-            // btnCadastrarCliente
-            // 
-            this.btnCadastrarCliente.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnCadastrarCliente.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCadastrarCliente.Location = new System.Drawing.Point(194, 525);
-            this.btnCadastrarCliente.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnCadastrarCliente.Name = "btnCadastrarCliente";
-            this.btnCadastrarCliente.Size = new System.Drawing.Size(312, 57);
-            this.btnCadastrarCliente.TabIndex = 12;
-            this.btnCadastrarCliente.Text = "Cadastrar Cliente";
-            this.btnCadastrarCliente.UseVisualStyleBackColor = true;
-            // 
-            // btnVerEstoque
-            // 
-            this.btnVerEstoque.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnVerEstoque.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVerEstoque.Location = new System.Drawing.Point(514, 457);
-            this.btnVerEstoque.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnVerEstoque.Name = "btnVerEstoque";
-            this.btnVerEstoque.Size = new System.Drawing.Size(322, 57);
-            this.btnVerEstoque.TabIndex = 13;
-            this.btnVerEstoque.Text = "Estoque";
-            this.btnVerEstoque.UseVisualStyleBackColor = true;
-            this.btnVerEstoque.Click += new System.EventHandler(this.btnVerEstoque_Click);
+            this.btnVenda.Click += new System.EventHandler(this.btnVenda_Click);
             // 
             // btnClientes
             // 
             this.btnClientes.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnClientes.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClientes.Location = new System.Drawing.Point(514, 525);
-            this.btnClientes.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnClientes.Location = new System.Drawing.Point(343, 314);
             this.btnClientes.Name = "btnClientes";
-            this.btnClientes.Size = new System.Drawing.Size(322, 57);
+            this.btnClientes.Size = new System.Drawing.Size(215, 37);
             this.btnClientes.TabIndex = 14;
             this.btnClientes.Text = "Clientes";
             this.btnClientes.UseVisualStyleBackColor = true;
+            this.btnClientes.Click += new System.EventHandler(this.btnClientes_Click);
             // 
             // btnHistoricoVendas
             // 
             this.btnHistoricoVendas.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnHistoricoVendas.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHistoricoVendas.Location = new System.Drawing.Point(514, 391);
-            this.btnHistoricoVendas.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnHistoricoVendas.Location = new System.Drawing.Point(343, 271);
             this.btnHistoricoVendas.Name = "btnHistoricoVendas";
-            this.btnHistoricoVendas.Size = new System.Drawing.Size(322, 57);
+            this.btnHistoricoVendas.Size = new System.Drawing.Size(215, 37);
             this.btnHistoricoVendas.TabIndex = 15;
             this.btnHistoricoVendas.Text = "Historico de Vendas";
             this.btnHistoricoVendas.UseVisualStyleBackColor = true;
+            this.btnHistoricoVendas.Click += new System.EventHandler(this.btnHistoricoVendas_Click);
             // 
             // btnGerenciarFuncionario
             // 
             this.btnGerenciarFuncionario.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnGerenciarFuncionario.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGerenciarFuncionario.Location = new System.Drawing.Point(194, 660);
-            this.btnGerenciarFuncionario.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnGerenciarFuncionario.Location = new System.Drawing.Point(129, 400);
             this.btnGerenciarFuncionario.Name = "btnGerenciarFuncionario";
-            this.btnGerenciarFuncionario.Size = new System.Drawing.Size(312, 57);
+            this.btnGerenciarFuncionario.Size = new System.Drawing.Size(208, 37);
             this.btnGerenciarFuncionario.TabIndex = 17;
             this.btnGerenciarFuncionario.Text = "Gerenciar Funcionários";
             this.btnGerenciarFuncionario.UseVisualStyleBackColor = true;
@@ -179,34 +148,33 @@
             // 
             this.btnHistoricoDesperdicio.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnHistoricoDesperdicio.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHistoricoDesperdicio.Location = new System.Drawing.Point(514, 592);
-            this.btnHistoricoDesperdicio.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnHistoricoDesperdicio.Location = new System.Drawing.Point(343, 357);
             this.btnHistoricoDesperdicio.Name = "btnHistoricoDesperdicio";
-            this.btnHistoricoDesperdicio.Size = new System.Drawing.Size(322, 57);
+            this.btnHistoricoDesperdicio.Size = new System.Drawing.Size(215, 37);
             this.btnHistoricoDesperdicio.TabIndex = 18;
             this.btnHistoricoDesperdicio.Text = "Histórico de Desperdicio";
             this.btnHistoricoDesperdicio.UseVisualStyleBackColor = true;
+            this.btnHistoricoDesperdicio.Click += new System.EventHandler(this.btnHistoricoDesperdicio_Click);
             // 
             // btnControleDesperdicio
             // 
             this.btnControleDesperdicio.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnControleDesperdicio.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnControleDesperdicio.Location = new System.Drawing.Point(194, 592);
-            this.btnControleDesperdicio.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnControleDesperdicio.Location = new System.Drawing.Point(129, 357);
             this.btnControleDesperdicio.Name = "btnControleDesperdicio";
-            this.btnControleDesperdicio.Size = new System.Drawing.Size(312, 57);
+            this.btnControleDesperdicio.Size = new System.Drawing.Size(208, 37);
             this.btnControleDesperdicio.TabIndex = 16;
             this.btnControleDesperdicio.Text = "Desperdicio";
             this.btnControleDesperdicio.UseVisualStyleBackColor = true;
+            this.btnControleDesperdicio.Click += new System.EventHandler(this.btnControleDesperdicio_Click);
             // 
             // btnSair
             // 
             this.btnSair.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnSair.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSair.Location = new System.Drawing.Point(514, 660);
-            this.btnSair.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnSair.Location = new System.Drawing.Point(343, 400);
             this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(322, 57);
+            this.btnSair.Size = new System.Drawing.Size(215, 37);
             this.btnSair.TabIndex = 19;
             this.btnSair.Text = "Sair";
             this.btnSair.UseVisualStyleBackColor = true;
@@ -219,10 +187,9 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(188, 271);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(125, 176);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(102, 33);
+            this.label2.Size = new System.Drawing.Size(66, 24);
             this.label2.TabIndex = 20;
             this.label2.Text = "Cargo:";
             // 
@@ -233,10 +200,9 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(188, 220);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(125, 143);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(101, 33);
+            this.label4.Size = new System.Drawing.Size(67, 24);
             this.label4.TabIndex = 21;
             this.label4.Text = "Nome:";
             // 
@@ -247,10 +213,9 @@
             this.lblId.BackColor = System.Drawing.Color.Transparent;
             this.lblId.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblId.ForeColor = System.Drawing.Color.White;
-            this.lblId.Location = new System.Drawing.Point(296, 325);
-            this.lblId.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblId.Location = new System.Drawing.Point(197, 211);
             this.lblId.Name = "lblId";
-            this.lblId.Size = new System.Drawing.Size(0, 33);
+            this.lblId.Size = new System.Drawing.Size(0, 24);
             this.lblId.TabIndex = 22;
             // 
             // lblNome
@@ -260,19 +225,18 @@
             this.lblNome.BackColor = System.Drawing.Color.Transparent;
             this.lblNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNome.ForeColor = System.Drawing.Color.White;
-            this.lblNome.Location = new System.Drawing.Point(296, 220);
-            this.lblNome.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblNome.Location = new System.Drawing.Point(197, 143);
             this.lblNome.Name = "lblNome";
-            this.lblNome.Size = new System.Drawing.Size(0, 33);
+            this.lblNome.Size = new System.Drawing.Size(0, 24);
             this.lblNome.TabIndex = 23;
             // 
             // MenuInicial
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(1058, 834);
+            this.ClientSize = new System.Drawing.Size(705, 542);
             this.Controls.Add(this.lblNome);
             this.Controls.Add(this.lblId);
             this.Controls.Add(this.label4);
@@ -283,14 +247,13 @@
             this.Controls.Add(this.btnControleDesperdicio);
             this.Controls.Add(this.btnHistoricoVendas);
             this.Controls.Add(this.btnClientes);
-            this.Controls.Add(this.btnVerEstoque);
-            this.Controls.Add(this.btnCadastrarCliente);
             this.Controls.Add(this.btnVenda);
-            this.Controls.Add(this.btnCadastrarProd);
+            this.Controls.Add(this.btnGerenciarProdutos);
             this.Controls.Add(this.lblCargo);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "MenuInicial";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "  MENU INICIAL";
@@ -306,10 +269,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label lblCargo;
-        private System.Windows.Forms.Button btnCadastrarProd;
+        private System.Windows.Forms.Button btnGerenciarProdutos;
         private System.Windows.Forms.Button btnVenda;
-        private System.Windows.Forms.Button btnCadastrarCliente;
-        private System.Windows.Forms.Button btnVerEstoque;
         private System.Windows.Forms.Button btnClientes;
         private System.Windows.Forms.Button btnHistoricoVendas;
         private System.Windows.Forms.Button btnGerenciarFuncionario;
