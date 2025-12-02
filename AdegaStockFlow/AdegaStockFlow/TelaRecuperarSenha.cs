@@ -7,22 +7,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace AdegaStockFlow
 {
-    public partial class TelaRecuperarSenha : Form
+    public partial class FrmRecuperarSenha : Form
     {
-        public string palavrachave;
+        public static string stringDeConexao = @"server=127.0.0.1;database=adega;uid=root;";
 
-        private List<Usuario> listusuario;
-        public TelaRecuperarSenha(List<Usuario>listusuario)
+        public FrmRecuperarSenha()
         {
             InitializeComponent();
-            this.listusuario = listusuario;
-        }
 
-        private void TelaRecuperarSenha_Load(object sender, EventArgs e)
-        {
+            this.WindowState = FormWindowState.Maximized;
+            this.FormBorderStyle = FormBorderStyle.None;
 
         }
 
@@ -36,20 +34,33 @@ namespace AdegaStockFlow
 
         private void btnRecuperar_Click(object sender, EventArgs e)
         {
-            palavrachave = txtBoxBanda.Text;
-            Boolean pass = false;
-            foreach (var usuario in listusuario)
+            if (!int.TryParse(txtId.Text.Trim(), out int id))
             {
-                if (usuario.getId().ToString() == palavrachave)
-                {
-                    lblMostraSenha.Text = "Usuario: " + usuario.getNome() + "\nSenha: " + usuario.getSenha() + "\nCargo: " + usuario.getCargo();
-                    pass = true;
-                }
+                MessageBox.Show("Digite um ID válido.");
+                return;
             }
 
-            if (pass != true)
+            using (var conexao = new MySqlConnection(stringDeConexao))
             {
-                MessageBox.Show("ID não indentificado. Por Favor, Tente Novamente", "ERROR_404", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                conexao.Open();
+
+                string sql = "SELECT nome_usuario FROM usuarios WHERE cod_usuario = @id";
+
+                using (var cmd = new MySqlCommand(sql, conexao))
+                {
+                    cmd.Parameters.AddWithValue("@id", id);
+                    object result = cmd.ExecuteScalar();
+
+                    if (result == null)
+                    {
+                        MessageBox.Show("Usuário não encontrado.");
+                        return;
+                    }
+
+                    FrmNovaSenha novaSenha = new FrmNovaSenha(id);
+                    novaSenha.Show();
+                    this.Close();
+                }
             }
         }
     }

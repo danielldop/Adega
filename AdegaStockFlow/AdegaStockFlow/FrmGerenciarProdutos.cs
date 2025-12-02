@@ -23,6 +23,9 @@ namespace AdegaStockFlow
         {
             InitializeComponent();
             usuarioLogado = idUsuario;
+
+            this.WindowState = FormWindowState.Maximized;
+            this.FormBorderStyle = FormBorderStyle.None;
         }
 
         private void btnEditarProduto_Click(object sender, EventArgs e)

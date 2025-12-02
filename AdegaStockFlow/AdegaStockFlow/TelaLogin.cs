@@ -13,109 +13,117 @@ namespace AdegaStockFlow
 {
     public partial class TelaLogin : Form
     {
+        private string stringDeConexao = @"server=127.0.0.1;database=adega;uid=root;";
+
         public TelaLogin()
         {
             InitializeComponent();
+
+            this.WindowState = FormWindowState.Maximized;
+            this.FormBorderStyle = FormBorderStyle.None;
         }
 
         private void txtBoxUser_Enter(object sender, EventArgs e)
         {
-            if (txtBoxUser.Text != "")
+            if (txtLogin.Text != "")
             {
-                txtBoxUser.Text = "";
-                txtBoxUser.ForeColor = Color.Black;
+                txtLogin.Text = "";
+                txtLogin.ForeColor = Color.Black;
             }
         }
 
         private void txtBoxSenha_Enter(object sender, EventArgs e)
         {
-            txtBoxSenha.UseSystemPasswordChar = true;
-            if (txtBoxSenha.Text != "") {
-                txtBoxSenha.Text = "";
-                txtBoxSenha.ForeColor = Color.Black;
+            txtSenha.UseSystemPasswordChar = true;
+            if (txtSenha.Text != "") {
+                txtSenha.Text = "";
+                txtSenha.ForeColor = Color.Black;
             }
         }
 
         private void txtBoxUser_Leave(object sender, EventArgs e)
         {
-            if (txtBoxUser.Text == "")
+            if (txtLogin.Text == "")
             {
-                txtBoxUser.Text = "Digite seu usuário";
-                txtBoxUser.ForeColor = Color.LightGray;
+                txtLogin.Text = "Digite seu usuário";
+                txtLogin.ForeColor = Color.LightGray;
             }
         }
 
         private void txtBoxSenha_Leave(object sender, EventArgs e)
         {
-            if (txtBoxSenha.Text=="")
+            if (txtSenha.Text=="")
             {
-                txtBoxSenha.UseSystemPasswordChar = false;
-                txtBoxSenha.Text = "Digite sua Senha";
-                txtBoxSenha.ForeColor = Color.LightGray;
+                txtSenha.UseSystemPasswordChar = false;
+                txtSenha.Text = "Digite sua Senha";
+                txtSenha.ForeColor = Color.LightGray;
             }
         }
 
         private void lblRecuperarSenha_Click(object sender, EventArgs e)
         {
-            // TelaRecuperarSenha janela = new TelaRecuperarSenha();
+            FrmRecuperarSenha recuperar = new FrmRecuperarSenha();
 
+            recuperar.Show();
+            this.Hide();
 
-           // this.Visible = false;
-           // janela.Show();
         }
 
-        //Passagem de tela:
         private void btnEntrar_Click(object sender, EventArgs e)
-        {   
-            string login = txtBoxUser.Text.Trim();
-            string senha = txtBoxSenha.Text.Trim();
+        {
+            string login = txtLogin.Text.Trim();
+            string senha = txtSenha.Text.Trim();
 
-            if (login == "" || senha == "")
+            if (string.IsNullOrEmpty(login))
             {
-                MessageBox.Show("Informe login e senha!");
+                MessageBox.Show("Informe o login.");
+                txtLogin.Focus();
                 return;
             }
 
-            using (var conexao = Banco.GetConnection())
+            if (string.IsNullOrEmpty(senha))
             {
-                try
+                MessageBox.Show("Informe a senha.");
+                txtSenha.Focus();
+                return;
+            }
+
+            using (var conexao = new MySqlConnection(stringDeConexao))
+            {
+                conexao.Open();
+
+                string sql = @"
+            SELECT 
+                cod_usuario,
+                nome_usuario,
+                nivel_usuario,
+                cargo_usuario
+            FROM usuarios
+            WHERE login_usuario = @login
+              AND senha_usuario = @senha;";
+
+                using (var cmd = new MySqlCommand(sql, conexao))
                 {
-                    conexao.Open();
+                    cmd.Parameters.AddWithValue("@login", login);  
+                    cmd.Parameters.AddWithValue("@senha", senha);  
 
-                    string sql = @"
-                        SELECT cod_usuario, nome_usuario, cargo_usuario, nivel_usuario
-                        FROM usuarios
-                        WHERE login_usuario = @login
-                          AND senha_usuario = @senha;";
-
-                    using (var cmd = new MySqlCommand(sql, conexao))
+                    using (var reader = cmd.ExecuteReader())
                     {
-                        cmd.Parameters.AddWithValue("@login", login);
-                        cmd.Parameters.AddWithValue("@senha", senha);
-
-                        using (var reader = cmd.ExecuteReader())
+                        if (!reader.Read())
                         {
-                            if (reader.Read())
-                            {
-                                int idUsuario = reader.GetInt32("cod_usuario");
-                                string nome = reader.GetString("nome_usuario");
-                                string cargo = reader.GetString("cargo_usuario");
-                                string nivel = reader.GetString("nivel_usuario");
-
-                                MenuInicial menu = new MenuInicial(idUsuario);
-                                menu.Show();
-                                this.Hide();
-                            }
-                            else
-                            {
-                                MessageBox.Show("Login ou senha inválidos!");
-                            }
+                            MessageBox.Show("Usuário não encontrado ou senha incorreta.");
+                            return;
                         }
+
+                        int codUsuario = reader.GetInt32(reader.GetOrdinal("cod_usuario"));
+                        string nome = reader.GetString(reader.GetOrdinal("nome_usuario"));
+                        int nivel = reader.GetInt32(reader.GetOrdinal("nivel_usuario"));
+                        string cargo = reader.GetString(reader.GetOrdinal("cargo_usuario"));
+
+                        MenuInicial menu = new MenuInicial(codUsuario);
+                        menu.Show();
+                        this.Hide();
                     }
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show("Erro ao conectar: " + ex.Message);
                 }
             }
         }
@@ -141,4 +149,3 @@ namespace AdegaStockFlow
         }
     }
 }
-// AppendFormat

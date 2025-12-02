@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaPagamento));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvProdutos = new System.Windows.Forms.DataGridView();
             this.ColunaCod = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Produto = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Quantidade = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -41,21 +41,21 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.cbxFormaPagamento = new System.Windows.Forms.ComboBox();
-            this.btnFinalizarPagamento = new System.Windows.Forms.Button();
-            this.btnCancelarPagamento = new System.Windows.Forms.Button();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
+            this.cmbFormaPagamento = new System.Windows.Forms.ComboBox();
+            this.btnFinalizar = new System.Windows.Forms.Button();
+            this.btnCancelar = new System.Windows.Forms.Button();
+            this.txtSubtotal = new System.Windows.Forms.TextBox();
+            this.txtDesconto = new System.Windows.Forms.TextBox();
+            this.txtTotal = new System.Windows.Forms.TextBox();
+            this.txtValorRecebido = new System.Windows.Forms.TextBox();
+            this.txtTroco = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvProdutos)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.dataGridView1);
+            this.groupBox1.Controls.Add(this.dgvProdutos);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(448, 212);
@@ -63,20 +63,20 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Produtos";
             // 
-            // dataGridView1
+            // dgvProdutos
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgvProdutos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvProdutos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ColunaCod,
             this.Produto,
             this.Quantidade,
             this.Valor});
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(3, 16);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.Size = new System.Drawing.Size(442, 193);
-            this.dataGridView1.TabIndex = 0;
+            this.dgvProdutos.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvProdutos.Location = new System.Drawing.Point(3, 16);
+            this.dgvProdutos.Name = "dgvProdutos";
+            this.dgvProdutos.RowHeadersWidth = 62;
+            this.dgvProdutos.Size = new System.Drawing.Size(442, 193);
+            this.dgvProdutos.TabIndex = 0;
             // 
             // ColunaCod
             // 
@@ -160,103 +160,95 @@
             this.label6.TabIndex = 6;
             this.label6.Text = "Troco:";
             // 
-            // cbxFormaPagamento
+            // cmbFormaPagamento
             // 
-            this.cbxFormaPagamento.FormattingEnabled = true;
-            this.cbxFormaPagamento.Location = new System.Drawing.Point(253, 234);
-            this.cbxFormaPagamento.Name = "cbxFormaPagamento";
-            this.cbxFormaPagamento.Size = new System.Drawing.Size(204, 21);
-            this.cbxFormaPagamento.TabIndex = 7;
+            this.cmbFormaPagamento.FormattingEnabled = true;
+            this.cmbFormaPagamento.Location = new System.Drawing.Point(253, 234);
+            this.cmbFormaPagamento.Name = "cmbFormaPagamento";
+            this.cmbFormaPagamento.Size = new System.Drawing.Size(204, 21);
+            this.cmbFormaPagamento.TabIndex = 7;
+            this.cmbFormaPagamento.SelectedIndexChanged += new System.EventHandler(this.cmbFormaPagamento_SelectedIndexChanged);
             // 
-            // btnFinalizarPagamento
+            // btnFinalizar
             // 
-            this.btnFinalizarPagamento.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFinalizarPagamento.Location = new System.Drawing.Point(95, 408);
-            this.btnFinalizarPagamento.Name = "btnFinalizarPagamento";
-            this.btnFinalizarPagamento.Size = new System.Drawing.Size(125, 32);
-            this.btnFinalizarPagamento.TabIndex = 13;
-            this.btnFinalizarPagamento.Text = "Finalizar";
-            this.btnFinalizarPagamento.UseVisualStyleBackColor = true;
+            this.btnFinalizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFinalizar.Location = new System.Drawing.Point(230, 408);
+            this.btnFinalizar.Name = "btnFinalizar";
+            this.btnFinalizar.Size = new System.Drawing.Size(125, 32);
+            this.btnFinalizar.TabIndex = 13;
+            this.btnFinalizar.Text = "Finalizar";
+            this.btnFinalizar.UseVisualStyleBackColor = true;
+            this.btnFinalizar.Click += new System.EventHandler(this.btnFinalizar_Click);
             // 
-            // btnCancelarPagamento
+            // btnCancelar
             // 
-            this.btnCancelarPagamento.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelarPagamento.Location = new System.Drawing.Point(253, 408);
-            this.btnCancelarPagamento.Name = "btnCancelarPagamento";
-            this.btnCancelarPagamento.Size = new System.Drawing.Size(125, 32);
-            this.btnCancelarPagamento.TabIndex = 14;
-            this.btnCancelarPagamento.Text = "Cancelar";
-            this.btnCancelarPagamento.UseVisualStyleBackColor = true;
-            this.btnCancelarPagamento.Click += new System.EventHandler(this.btnCancelarPagamento_Click);
+            this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancelar.Location = new System.Drawing.Point(99, 408);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(125, 32);
+            this.btnCancelar.TabIndex = 14;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelarPagamento_Click);
             // 
-            // label7
+            // txtSubtotal
             // 
-            this.label7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label7.Location = new System.Drawing.Point(357, 290);
-            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(99, 22);
-            this.label7.TabIndex = 15;
-            this.label7.Text = "-";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.txtSubtotal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtSubtotal.Location = new System.Drawing.Point(357, 261);
+            this.txtSubtotal.Name = "txtSubtotal";
+            this.txtSubtotal.ReadOnly = true;
+            this.txtSubtotal.Size = new System.Drawing.Size(100, 20);
+            this.txtSubtotal.TabIndex = 15;
             // 
-            // label8
+            // txtDesconto
             // 
-            this.label8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label8.Location = new System.Drawing.Point(357, 368);
-            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(99, 22);
-            this.label8.TabIndex = 16;
-            this.label8.Text = "-";
-            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.txtDesconto.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtDesconto.Location = new System.Drawing.Point(357, 288);
+            this.txtDesconto.Name = "txtDesconto";
+            this.txtDesconto.ReadOnly = true;
+            this.txtDesconto.Size = new System.Drawing.Size(100, 20);
+            this.txtDesconto.TabIndex = 16;
             // 
-            // label9
+            // txtTotal
             // 
-            this.label9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label9.Location = new System.Drawing.Point(357, 342);
-            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(99, 22);
-            this.label9.TabIndex = 17;
-            this.label9.Text = "-";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.txtTotal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtTotal.Location = new System.Drawing.Point(357, 314);
+            this.txtTotal.Name = "txtTotal";
+            this.txtTotal.ReadOnly = true;
+            this.txtTotal.Size = new System.Drawing.Size(100, 20);
+            this.txtTotal.TabIndex = 17;
             // 
-            // label10
+            // txtValorRecebido
             // 
-            this.label10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label10.Location = new System.Drawing.Point(357, 316);
-            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(99, 22);
-            this.label10.TabIndex = 18;
-            this.label10.Text = "-";
-            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.txtValorRecebido.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtValorRecebido.Location = new System.Drawing.Point(357, 340);
+            this.txtValorRecebido.Name = "txtValorRecebido";
+            this.txtValorRecebido.Size = new System.Drawing.Size(100, 20);
+            this.txtValorRecebido.TabIndex = 18;
+            this.txtValorRecebido.TextChanged += new System.EventHandler(this.txtValorRecebido_TextChanged);
             // 
-            // label11
+            // txtTroco
             // 
-            this.label11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label11.Location = new System.Drawing.Point(357, 264);
-            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(99, 22);
-            this.label11.TabIndex = 19;
-            this.label11.Text = "-";
-            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.txtTroco.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtTroco.Location = new System.Drawing.Point(357, 366);
+            this.txtTroco.Name = "txtTroco";
+            this.txtTroco.ReadOnly = true;
+            this.txtTroco.Size = new System.Drawing.Size(100, 20);
+            this.txtTroco.TabIndex = 19;
             // 
             // TelaPagamento
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(471, 452);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.btnCancelarPagamento);
-            this.Controls.Add(this.btnFinalizarPagamento);
-            this.Controls.Add(this.cbxFormaPagamento);
+            this.Controls.Add(this.txtTroco);
+            this.Controls.Add(this.txtValorRecebido);
+            this.Controls.Add(this.txtTotal);
+            this.Controls.Add(this.txtDesconto);
+            this.Controls.Add(this.txtSubtotal);
+            this.Controls.Add(this.btnCancelar);
+            this.Controls.Add(this.btnFinalizar);
+            this.Controls.Add(this.cmbFormaPagamento);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -267,8 +259,9 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "TelaPagamento";
             this.Text = "  PAGAMENTO";
+            this.Load += new System.EventHandler(this.TelaPagamento_Load);
             this.groupBox1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvProdutos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -277,7 +270,7 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvProdutos;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColunaCod;
         private System.Windows.Forms.DataGridViewTextBoxColumn Produto;
         private System.Windows.Forms.DataGridViewTextBoxColumn Quantidade;
@@ -288,13 +281,13 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ComboBox cbxFormaPagamento;
-        private System.Windows.Forms.Button btnFinalizarPagamento;
-        private System.Windows.Forms.Button btnCancelarPagamento;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.ComboBox cmbFormaPagamento;
+        private System.Windows.Forms.Button btnFinalizar;
+        private System.Windows.Forms.Button btnCancelar;
+        private System.Windows.Forms.TextBox txtSubtotal;
+        private System.Windows.Forms.TextBox txtDesconto;
+        private System.Windows.Forms.TextBox txtTotal;
+        private System.Windows.Forms.TextBox txtValorRecebido;
+        private System.Windows.Forms.TextBox txtTroco;
     }
 }

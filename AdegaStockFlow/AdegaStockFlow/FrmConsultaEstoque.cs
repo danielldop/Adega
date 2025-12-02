@@ -20,6 +20,9 @@ namespace AdegaStockFlow
         {
             InitializeComponent();
             usuarioLogado = idUsuario;
+
+            this.WindowState = FormWindowState.Maximized;
+            this.FormBorderStyle = FormBorderStyle.None;
         }
 
         private void CarregarProdutos()

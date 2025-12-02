@@ -33,7 +33,15 @@
             this.btnCadastrar = new System.Windows.Forms.Button();
             this.btnConsultar = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btnPesquisar = new System.Windows.Forms.Button();
+            this.dgvClientes = new System.Windows.Forms.DataGridView();
+            this.label2 = new System.Windows.Forms.Label();
+            this.lbl1 = new System.Windows.Forms.Label();
+            this.txtTelefone = new System.Windows.Forms.TextBox();
+            this.txtNome = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvClientes)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -57,6 +65,7 @@
             this.btnMenu.TabIndex = 2;
             this.btnMenu.Text = "Menu";
             this.btnMenu.UseVisualStyleBackColor = true;
+            this.btnMenu.Click += new System.EventHandler(this.btnMenu_Click);
             // 
             // btnCadastrar
             // 
@@ -81,12 +90,70 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.btnPesquisar);
+            this.groupBox2.Controls.Add(this.dgvClientes);
+            this.groupBox2.Controls.Add(this.label2);
+            this.groupBox2.Controls.Add(this.lbl1);
+            this.groupBox2.Controls.Add(this.txtTelefone);
+            this.groupBox2.Controls.Add(this.txtNome);
             this.groupBox2.Location = new System.Drawing.Point(117, 12);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(671, 426);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Consultar";
+            // 
+            // btnPesquisar
+            // 
+            this.btnPesquisar.Location = new System.Drawing.Point(575, 41);
+            this.btnPesquisar.Name = "btnPesquisar";
+            this.btnPesquisar.Size = new System.Drawing.Size(90, 23);
+            this.btnPesquisar.TabIndex = 5;
+            this.btnPesquisar.Text = "Pesquisar";
+            this.btnPesquisar.UseVisualStyleBackColor = true;
+            this.btnPesquisar.Click += new System.EventHandler(this.btnPesquisar_Click);
+            // 
+            // dgvClientes
+            // 
+            this.dgvClientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvClientes.Location = new System.Drawing.Point(9, 70);
+            this.dgvClientes.Name = "dgvClientes";
+            this.dgvClientes.Size = new System.Drawing.Size(656, 350);
+            this.dgvClientes.TabIndex = 4;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(295, 28);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(49, 13);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Telefone";
+            // 
+            // lbl1
+            // 
+            this.lbl1.AutoSize = true;
+            this.lbl1.Location = new System.Drawing.Point(6, 28);
+            this.lbl1.Name = "lbl1";
+            this.lbl1.Size = new System.Drawing.Size(35, 13);
+            this.lbl1.TabIndex = 2;
+            this.lbl1.Text = "Nome";
+            // 
+            // txtTelefone
+            // 
+            this.txtTelefone.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtTelefone.Location = new System.Drawing.Point(298, 44);
+            this.txtTelefone.Name = "txtTelefone";
+            this.txtTelefone.Size = new System.Drawing.Size(271, 20);
+            this.txtTelefone.TabIndex = 1;
+            // 
+            // txtNome
+            // 
+            this.txtNome.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtNome.Location = new System.Drawing.Point(9, 44);
+            this.txtNome.Name = "txtNome";
+            this.txtNome.Size = new System.Drawing.Size(283, 20);
+            this.txtNome.TabIndex = 0;
             // 
             // FrmClientes
             // 
@@ -97,7 +164,11 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "FrmClientes";
             this.Text = "FrmClientes";
+            this.Load += new System.EventHandler(this.FrmClientes_Load);
             this.groupBox1.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvClientes)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -109,5 +180,11 @@
         private System.Windows.Forms.Button btnCadastrar;
         private System.Windows.Forms.Button btnConsultar;
         private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Button btnPesquisar;
+        private System.Windows.Forms.DataGridView dgvClientes;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lbl1;
+        private System.Windows.Forms.TextBox txtTelefone;
+        private System.Windows.Forms.TextBox txtNome;
     }
 }

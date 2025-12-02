@@ -36,9 +36,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.cmbProdutos = new System.Windows.Forms.ComboBox();
-            this.cmbquantidade = new System.Windows.Forms.ComboBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.txtQuantidade = new System.Windows.Forms.TextBox();
+            this.cmbProduto = new System.Windows.Forms.ComboBox();
+            this.dgvCarrinho = new System.Windows.Forms.DataGridView();
             this.Codigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Produto = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Quantidade = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -48,18 +48,18 @@
             this.lbldata = new System.Windows.Forms.Label();
             this.btnfinalizarvenda = new System.Windows.Forms.Button();
             this.lbl = new System.Windows.Forms.Label();
-            this.lbltotal = new System.Windows.Forms.Label();
+            this.lblTotal = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.txtdesconto = new System.Windows.Forms.TextBox();
-            this.lblsubtotal = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.txtDesconto = new System.Windows.Forms.TextBox();
+            this.lblSubtotal = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.btnVoltar = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCarrinho)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -83,15 +83,17 @@
             this.cmbCliente.Name = "cmbCliente";
             this.cmbCliente.Size = new System.Drawing.Size(121, 21);
             this.cmbCliente.TabIndex = 5;
+            this.cmbCliente.SelectedIndexChanged += new System.EventHandler(this.cmbCliente_SelectedIndexChanged);
             // 
             // btnBuscarCliente
             // 
-            this.btnBuscarCliente.Location = new System.Drawing.Point(394, 37);
+            this.btnBuscarCliente.Location = new System.Drawing.Point(391, 31);
             this.btnBuscarCliente.Name = "btnBuscarCliente";
             this.btnBuscarCliente.Size = new System.Drawing.Size(163, 24);
             this.btnBuscarCliente.TabIndex = 4;
             this.btnBuscarCliente.Text = "Buscar Cliente";
             this.btnBuscarCliente.UseVisualStyleBackColor = true;
+            this.btnBuscarCliente.Click += new System.EventHandler(this.btnBuscarCliente_Click);
             // 
             // lblEndereco
             // 
@@ -121,9 +123,10 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.cmbProdutos);
-            this.groupBox2.Controls.Add(this.cmbquantidade);
-            this.groupBox2.Controls.Add(this.dataGridView1);
+            this.groupBox2.Controls.Add(this.btnVoltar);
+            this.groupBox2.Controls.Add(this.txtQuantidade);
+            this.groupBox2.Controls.Add(this.cmbProduto);
+            this.groupBox2.Controls.Add(this.dgvCarrinho);
             this.groupBox2.Controls.Add(this.btnAdicionar);
             this.groupBox2.Location = new System.Drawing.Point(12, 127);
             this.groupBox2.Name = "groupBox2";
@@ -132,39 +135,40 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Produtos";
             // 
-            // cmbProdutos
+            // txtQuantidade
             // 
-            this.cmbProdutos.FormattingEnabled = true;
-            this.cmbProdutos.Location = new System.Drawing.Point(9, 31);
-            this.cmbProdutos.Name = "cmbProdutos";
-            this.cmbProdutos.Size = new System.Drawing.Size(376, 21);
-            this.cmbProdutos.TabIndex = 14;
+            this.txtQuantidade.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtQuantidade.Location = new System.Drawing.Point(391, 32);
+            this.txtQuantidade.Name = "txtQuantidade";
+            this.txtQuantidade.Size = new System.Drawing.Size(35, 20);
+            this.txtQuantidade.TabIndex = 15;
+            this.txtQuantidade.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtQuantidade_KeyPress);
             // 
-            // cmbquantidade
+            // cmbProduto
             // 
-            this.cmbquantidade.FormattingEnabled = true;
-            this.cmbquantidade.Location = new System.Drawing.Point(391, 31);
-            this.cmbquantidade.Name = "cmbquantidade";
-            this.cmbquantidade.Size = new System.Drawing.Size(35, 21);
-            this.cmbquantidade.TabIndex = 13;
+            this.cmbProduto.FormattingEnabled = true;
+            this.cmbProduto.Location = new System.Drawing.Point(9, 31);
+            this.cmbProduto.Name = "cmbProduto";
+            this.cmbProduto.Size = new System.Drawing.Size(376, 21);
+            this.cmbProduto.TabIndex = 14;
             // 
-            // dataGridView1
+            // dgvCarrinho
             // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgvCarrinho.AllowUserToAddRows = false;
+            this.dgvCarrinho.AllowUserToDeleteRows = false;
+            this.dgvCarrinho.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvCarrinho.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Codigo,
             this.Produto,
             this.Quantidade,
             this.Preco,
             this.Subtotal});
-            this.dataGridView1.Location = new System.Drawing.Point(9, 68);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.Size = new System.Drawing.Size(548, 351);
-            this.dataGridView1.TabIndex = 2;
+            this.dgvCarrinho.Location = new System.Drawing.Point(9, 68);
+            this.dgvCarrinho.Name = "dgvCarrinho";
+            this.dgvCarrinho.ReadOnly = true;
+            this.dgvCarrinho.RowHeadersWidth = 62;
+            this.dgvCarrinho.Size = new System.Drawing.Size(548, 296);
+            this.dgvCarrinho.TabIndex = 2;
             // 
             // Codigo
             // 
@@ -214,11 +218,12 @@
             this.btnAdicionar.TabIndex = 1;
             this.btnAdicionar.Text = "Adicionar";
             this.btnAdicionar.UseVisualStyleBackColor = true;
+            this.btnAdicionar.Click += new System.EventHandler(this.btnAdicionar_Click);
             // 
             // lbldata
             // 
             this.lbldata.AutoSize = true;
-            this.lbldata.Location = new System.Drawing.Point(710, 12);
+            this.lbldata.Location = new System.Drawing.Point(787, 9);
             this.lbldata.Name = "lbldata";
             this.lbldata.Size = new System.Drawing.Size(0, 13);
             this.lbldata.TabIndex = 2;
@@ -228,10 +233,11 @@
             this.btnfinalizarvenda.BackColor = System.Drawing.SystemColors.Control;
             this.btnfinalizarvenda.Location = new System.Drawing.Point(590, 488);
             this.btnfinalizarvenda.Name = "btnfinalizarvenda";
-            this.btnfinalizarvenda.Size = new System.Drawing.Size(225, 64);
+            this.btnfinalizarvenda.Size = new System.Drawing.Size(288, 64);
             this.btnfinalizarvenda.TabIndex = 3;
             this.btnfinalizarvenda.Text = "Finalizar Venda";
             this.btnfinalizarvenda.UseVisualStyleBackColor = false;
+            this.btnfinalizarvenda.Click += new System.EventHandler(this.btnfinalizarvenda_Click);
             // 
             // lbl
             // 
@@ -243,15 +249,15 @@
             this.lbl.TabIndex = 4;
             this.lbl.Text = "Total:";
             // 
-            // lbltotal
+            // lblTotal
             // 
-            this.lbltotal.AutoSize = true;
-            this.lbltotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbltotal.Location = new System.Drawing.Point(650, 457);
-            this.lbltotal.Name = "lbltotal";
-            this.lbltotal.Size = new System.Drawing.Size(39, 13);
-            this.lbltotal.TabIndex = 5;
-            this.lbltotal.Text = "89,90";
+            this.lblTotal.AutoSize = true;
+            this.lblTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotal.Location = new System.Drawing.Point(650, 457);
+            this.lblTotal.Name = "lblTotal";
+            this.lblTotal.Size = new System.Drawing.Size(39, 13);
+            this.lblTotal.TabIndex = 5;
+            this.lblTotal.Text = "89,90";
             // 
             // label3
             // 
@@ -271,31 +277,23 @@
             this.label4.TabIndex = 7;
             this.label4.Text = "Subtotal:";
             // 
-            // txtdesconto
+            // txtDesconto
             // 
-            this.txtdesconto.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtdesconto.Location = new System.Drawing.Point(652, 432);
-            this.txtdesconto.Name = "txtdesconto";
-            this.txtdesconto.Size = new System.Drawing.Size(23, 20);
-            this.txtdesconto.TabIndex = 8;
+            this.txtDesconto.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtDesconto.Location = new System.Drawing.Point(652, 432);
+            this.txtDesconto.Name = "txtDesconto";
+            this.txtDesconto.Size = new System.Drawing.Size(69, 20);
+            this.txtDesconto.TabIndex = 8;
+            this.txtDesconto.TextChanged += new System.EventHandler(this.txtDesconto_TextChanged);
             // 
-            // lblsubtotal
+            // lblSubtotal
             // 
-            this.lblsubtotal.AutoSize = true;
-            this.lblsubtotal.Location = new System.Drawing.Point(659, 413);
-            this.lblsubtotal.Name = "lblsubtotal";
-            this.lblsubtotal.Size = new System.Drawing.Size(34, 13);
-            this.lblsubtotal.TabIndex = 9;
-            this.lblsubtotal.Text = "90,00";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(681, 435);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(15, 13);
-            this.label5.TabIndex = 10;
-            this.label5.Text = "%";
+            this.lblSubtotal.AutoSize = true;
+            this.lblSubtotal.Location = new System.Drawing.Point(659, 413);
+            this.lblSubtotal.Name = "lblSubtotal";
+            this.lblSubtotal.Size = new System.Drawing.Size(34, 13);
+            this.lblSubtotal.TabIndex = 9;
+            this.lblSubtotal.Text = "90,00";
             // 
             // label6
             // 
@@ -322,19 +320,29 @@
             this.timer1.Interval = 1;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // btnVoltar
+            // 
+            this.btnVoltar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVoltar.Location = new System.Drawing.Point(6, 396);
+            this.btnVoltar.Name = "btnVoltar";
+            this.btnVoltar.Size = new System.Drawing.Size(111, 23);
+            this.btnVoltar.TabIndex = 13;
+            this.btnVoltar.Text = "Voltar";
+            this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
+            // 
             // FrmVenda
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(817, 564);
+            this.ClientSize = new System.Drawing.Size(890, 564);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.lblsubtotal);
-            this.Controls.Add(this.txtdesconto);
+            this.Controls.Add(this.lblSubtotal);
+            this.Controls.Add(this.txtDesconto);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.lbltotal);
+            this.Controls.Add(this.lblTotal);
             this.Controls.Add(this.lbl);
             this.Controls.Add(this.btnfinalizarvenda);
             this.Controls.Add(this.lbldata);
@@ -346,7 +354,8 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCarrinho)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -361,7 +370,7 @@
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button btnBuscarCliente;
         private System.Windows.Forms.Button btnAdicionar;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvCarrinho;
         private System.Windows.Forms.DataGridViewTextBoxColumn Codigo;
         private System.Windows.Forms.DataGridViewTextBoxColumn Produto;
         private System.Windows.Forms.DataGridViewTextBoxColumn Quantidade;
@@ -370,17 +379,17 @@
         private System.Windows.Forms.Label lbldata;
         private System.Windows.Forms.Button btnfinalizarvenda;
         private System.Windows.Forms.Label lbl;
-        private System.Windows.Forms.Label lbltotal;
+        private System.Windows.Forms.Label lblTotal;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtdesconto;
-        private System.Windows.Forms.Label lblsubtotal;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txtDesconto;
+        private System.Windows.Forms.Label lblSubtotal;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.ComboBox cmbCliente;
-        private System.Windows.Forms.ComboBox cmbquantidade;
-        private System.Windows.Forms.ComboBox cmbProdutos;
+        private System.Windows.Forms.ComboBox cmbProduto;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.TextBox txtQuantidade;
+        private System.Windows.Forms.Button btnVoltar;
     }
 }

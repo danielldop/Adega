@@ -102,6 +102,12 @@
     <Compile Include="FrmCadastrarCliente.Designer.cs">
       <DependentUpon>FrmCadastrarCliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmCadastrarFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCadastrarFuncionario.Designer.cs">
+      <DependentUpon>FrmCadastrarFuncionario.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmClientes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -132,6 +138,12 @@
     <Compile Include="FrmExcluirProduto.Designer.cs">
       <DependentUpon>FrmExcluirProduto.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmGerenciarFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGerenciarFuncionario.Designer.cs">
+      <DependentUpon>FrmGerenciarFuncionario.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmGerenciarProdutos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -150,23 +162,17 @@
     <Compile Include="FrmHistoricoDeVendas.Designer.cs">
       <DependentUpon>FrmHistoricoDeVendas.cs</DependentUpon>
     </Compile>
-    <Compile Include="FUNCIONARIO ENCONTRADO.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FUNCIONARIO ENCONTRADO.Designer.cs">
-      <DependentUpon>FUNCIONARIO ENCONTRADO.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GERENCIAR FUNCIONARIOS.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GERENCIAR FUNCIONARIOS.Designer.cs">
-      <DependentUpon>GERENCIAR FUNCIONARIOS.cs</DependentUpon>
-    </Compile>
     <Compile Include="MenuInicial.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MenuInicial.Designer.cs">
       <DependentUpon>MenuInicial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NovaSenha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NovaSenha.Designer.cs">
+      <DependentUpon>NovaSenha.cs</DependentUpon>
     </Compile>
     <Compile Include="Produto.cs" />
     <Compile Include="TelaLogin.cs">
@@ -195,9 +201,11 @@
     <Compile Include="TelaVenda.Designer.cs">
       <DependentUpon>TelaVenda.cs</DependentUpon>
     </Compile>
-    <Compile Include="Usuario.cs" />
     <EmbeddedResource Include="FrmCadastrarCliente.resx">
       <DependentUpon>FrmCadastrarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCadastrarFuncionario.resx">
+      <DependentUpon>FrmCadastrarFuncionario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmClientes.resx">
       <DependentUpon>FrmClientes.cs</DependentUpon>
@@ -214,17 +222,23 @@
     <EmbeddedResource Include="FrmExcluirProduto.resx">
       <DependentUpon>FrmExcluirProduto.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmGerenciarFuncionario.resx">
+      <DependentUpon>FrmGerenciarFuncionario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmGerenciarProdutos.resx">
       <DependentUpon>FrmGerenciarProdutos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FUNCIONARIO ENCONTRADO.resx">
-      <DependentUpon>FUNCIONARIO ENCONTRADO.cs</DependentUpon>
+    <EmbeddedResource Include="FrmHistoricoDesperdicio.resx">
+      <DependentUpon>FrmHistoricoDesperdicio.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GERENCIAR FUNCIONARIOS.resx">
-      <DependentUpon>GERENCIAR FUNCIONARIOS.cs</DependentUpon>
+    <EmbeddedResource Include="FrmHistoricoDeVendas.resx">
+      <DependentUpon>FrmHistoricoDeVendas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuInicial.resx">
       <DependentUpon>MenuInicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NovaSenha.resx">
+      <DependentUpon>NovaSenha.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TelaLogin.resx">
       <DependentUpon>TelaLogin.cs</DependentUpon>

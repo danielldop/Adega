@@ -20,6 +20,9 @@ namespace AdegaStockFlow
         {
             InitializeComponent();
             usuarioLogado = idUsuario;
+
+            this.WindowState = FormWindowState.Maximized;
+            this.FormBorderStyle = FormBorderStyle.None;
         }
 
         private void btnAdicionarProduto_Click(object sender, EventArgs e)
@@ -65,7 +68,7 @@ namespace AdegaStockFlow
                 {
                     conexao.Open();
 
-                    string sql = "SELECT cod_produto, nome_produto FROM produtos ORDER BY nome_produto;";
+                    string sql = "SELECT cod_produto, nome_produto FROM produtos WHERE ativo = 1 ORDER BY nome_produto";
 
                     using (var cmd = new MySqlCommand(sql, conexao))
                     using (var da = new MySqlDataAdapter(cmd))

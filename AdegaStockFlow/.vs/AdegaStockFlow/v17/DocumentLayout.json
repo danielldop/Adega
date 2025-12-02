@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\gamer\\OneDrive\\\u00C1rea de Trabalho\\codigo projeto\\StockFlow\\AdegaStockFlow\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|c:\\users\\gamer\\onedrive\\\u00E1rea de trabalho\\codigo projeto\\stockflow\\adegastockflow\\adegastockflow\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|solutionrelative:adegastockflow\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|c:\\users\\gamer\\onedrive\\\u00E1rea de trabalho\\codigo projeto\\stockflow\\adegastockflow\\adegastockflow\\menuinicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|solutionrelative:adegastockflow\\menuinicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|c:\\users\\gamer\\onedrive\\\u00E1rea de trabalho\\codigo projeto\\stockflow\\adegastockflow\\adegastockflow\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|solutionrelative:adegastockflow\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|C:\\Users\\gamer\\OneDrive\\\u00C1rea de Trabalho\\codigo projeto\\StockFlow\\AdegaStockFlow\\adegastockflow\\telalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|solutionrelative:adegastockflow\\telalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|C:\\Users\\gamer\\OneDrive\\\u00C1rea de Trabalho\\codigo projeto\\StockFlow\\AdegaStockFlow\\adegastockflow\\banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1322E29-0D09-4061-BC1F-3F9E436C2322}|AdegaStockFlow\\AdegaStockFlow.csproj|solutionrelative:adegastockflow\\banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,28 +38,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\gamer\\OneDrive\\\u00C1rea de Trabalho\\codigo projeto\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\.gitignore",
-              "RelativeDocumentMoniker": "AdegaStockFlow\\.gitignore",
-              "ToolTip": "C:\\Users\\gamer\\OneDrive\\\u00C1rea de Trabalho\\codigo projeto\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\.gitignore",
-              "RelativeToolTip": "AdegaStockFlow\\.gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-29T17:25:45.504Z",
-              "EditorCaption": ""
+              "DocumentIndex": 1,
+              "Title": "TelaLogin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\gamer\\OneDrive\\\u00C1rea de Trabalho\\codigo projeto\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\TelaLogin.cs",
+              "RelativeDocumentMoniker": "AdegaStockFlow\\TelaLogin.cs",
+              "ToolTip": "C:\\Users\\gamer\\OneDrive\\\u00C1rea de Trabalho\\codigo projeto\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\TelaLogin.cs [Design]",
+              "RelativeToolTip": "AdegaStockFlow\\TelaLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T01:59:00.493Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmClientes.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\gamer\\OneDrive\\\u00C1rea de Trabalho\\codigo projeto\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\FrmClientes.cs",
-              "RelativeDocumentMoniker": "AdegaStockFlow\\FrmClientes.cs",
-              "ToolTip": "C:\\Users\\gamer\\OneDrive\\\u00C1rea de Trabalho\\codigo projeto\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\FrmClientes.cs [Design]",
-              "RelativeToolTip": "AdegaStockFlow\\FrmClientes.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "MenuInicial.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\gamer\\OneDrive\\\u00C1rea de Trabalho\\codigo projeto\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\MenuInicial.cs",
+              "RelativeDocumentMoniker": "AdegaStockFlow\\MenuInicial.cs",
+              "ToolTip": "C:\\Users\\gamer\\OneDrive\\\u00C1rea de Trabalho\\codigo projeto\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\MenuInicial.cs [Design]",
+              "RelativeToolTip": "AdegaStockFlow\\MenuInicial.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T03:44:51.458Z",
+              "WhenOpened": "2025-12-02T01:58:18.674Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Banco.cs",
+              "DocumentMoniker": "C:\\Users\\gamer\\OneDrive\\\u00C1rea de Trabalho\\codigo projeto\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\Banco.cs",
+              "RelativeDocumentMoniker": "AdegaStockFlow\\Banco.cs",
+              "ToolTip": "C:\\Users\\gamer\\OneDrive\\\u00C1rea de Trabalho\\codigo projeto\\StockFlow\\AdegaStockFlow\\AdegaStockFlow\\Banco.cs",
+              "RelativeToolTip": "AdegaStockFlow\\Banco.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T01:56:30.871Z"
             }
           ]
         }

@@ -35,12 +35,12 @@
             this.btnEditarProduto = new System.Windows.Forms.Button();
             this.btnAdicionarProduto = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtProduto = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.dgvEstoque = new System.Windows.Forms.DataGridView();
             this.btnPesquisar = new System.Windows.Forms.Button();
             this.cmbCategoria = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtProduto = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvEstoque)).BeginInit();
@@ -89,7 +89,7 @@
             this.btnExcluirProduto.Name = "btnExcluirProduto";
             this.btnExcluirProduto.Size = new System.Drawing.Size(82, 48);
             this.btnExcluirProduto.TabIndex = 3;
-            this.btnExcluirProduto.Text = "Excluir";
+            this.btnExcluirProduto.Text = "Desativar";
             this.btnExcluirProduto.UseVisualStyleBackColor = true;
             this.btnExcluirProduto.Click += new System.EventHandler(this.btnExcluirProduto_Click);
             // 
@@ -130,6 +130,32 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Estoque";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(283, 30);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(49, 13);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Produtos";
+            // 
+            // txtProduto
+            // 
+            this.txtProduto.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtProduto.Location = new System.Drawing.Point(286, 47);
+            this.txtProduto.Name = "txtProduto";
+            this.txtProduto.Size = new System.Drawing.Size(274, 20);
+            this.txtProduto.TabIndex = 4;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(6, 30);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(84, 13);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Filtrar categorias";
+            // 
             // dgvEstoque
             // 
             this.dgvEstoque.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
@@ -157,32 +183,6 @@
             this.cmbCategoria.Name = "cmbCategoria";
             this.cmbCategoria.Size = new System.Drawing.Size(274, 21);
             this.cmbCategoria.TabIndex = 0;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 30);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(84, 13);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Filtrar categorias";
-            // 
-            // txtProduto
-            // 
-            this.txtProduto.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtProduto.Location = new System.Drawing.Point(286, 47);
-            this.txtProduto.Name = "txtProduto";
-            this.txtProduto.Size = new System.Drawing.Size(274, 20);
-            this.txtProduto.TabIndex = 4;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(283, 30);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(49, 13);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Produtos";
             // 
             // FrmConsultaEstoque
             // 

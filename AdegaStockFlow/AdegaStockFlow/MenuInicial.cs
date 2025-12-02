@@ -20,6 +20,9 @@ namespace AdegaStockFlow
         {
             InitializeComponent();
             this.usuarioLogado = idUsuario;
+
+            this.WindowState = FormWindowState.Maximized;
+            this.FormBorderStyle = FormBorderStyle.None;
         }
 
         private void MenuInicial_Load(object sender, EventArgs e)
@@ -44,17 +47,18 @@ namespace AdegaStockFlow
                             {
                                 string nome = reader.GetString("nome_usuario");
                                 string cargo = reader.GetString("cargo_usuario");
-                                string nivel = reader.GetString("nivel_usuario");
+                                int nivel = reader.GetInt32("nivel_usuario");
+
 
                                 lblNome.Text = nome;
                                 lblCargo.Text = cargo;
                                 lblId.Text = usuarioLogado.ToString();
 
-                                if (nivel == "1")
+                                if (nivel == 1)
                                 {
                                     acesso = 1;
                                 }
-                                else if (nivel == "2")
+                                else if (nivel == 2)
                                 {
                                     acesso = 2;
                                 }
@@ -75,17 +79,11 @@ namespace AdegaStockFlow
             }
             if (acesso == 1)
             {
-                this.Controls.Remove(btnControleDesperdicio);
-                btnControleDesperdicio.Dispose();
+                btnControleDesperdicio.Enabled = false;
+                btnHistoricoDesperdicio.Enabled = false;
+                btnGerenciarFuncionario.Enabled = false;
 
-                this.Controls.Remove(btnHistoricoDesperdicio);
-                btnHistoricoDesperdicio.Dispose();
 
-                this.Controls.Remove(btnGerenciarFuncionario);
-                btnGerenciarFuncionario.Dispose();
-
-                btnSair.Size = new System.Drawing.Size(429, 37);
-                btnSair.Location = new System.Drawing.Point(129, 400);
             }
             else if (acesso == 2)
             {
@@ -113,15 +111,20 @@ namespace AdegaStockFlow
 
         private void btnGerenciarFuncionario_Click(object sender, EventArgs e)
         {
-            GERENCIAR_FUNCIONARIOS func = new GERENCIAR_FUNCIONARIOS(/*usuarioLogado*/);//passa usuario para que o botao voltar funcione
+            if (acesso != 2)
+            {
+                MessageBox.Show("Apenas administradores podem acessar o cadastro de funcionários.");
+                return;
+            }
 
-            func.Show();
+            FrmCadastrarFuncionario tela = new FrmCadastrarFuncionario(usuarioLogado);
+            tela.Show();
             this.Hide();
         }
 
         private void btnVenda_Click(object sender, EventArgs e)
         {
-            FrmVenda novaTela = new FrmVenda(/*usuarioLogado*/);
+            FrmVenda novaTela = new FrmVenda(usuarioLogado);
 
             novaTela.Show();
             this.Hide();
@@ -129,7 +132,7 @@ namespace AdegaStockFlow
 
         private void btnHistoricoVendas_Click(object sender, EventArgs e)
         {
-            FrmHistoricoDeVendas novaTela = new FrmHistoricoDeVendas(/*usuarioLogado*/);
+            FrmHistoricoDeVendas novaTela = new FrmHistoricoDeVendas(usuarioLogado);
 
             novaTela.Show();
             this.Hide();
@@ -153,7 +156,7 @@ namespace AdegaStockFlow
 
         private void btnControleDesperdicio_Click(object sender, EventArgs e)
         {
-            FrmDesperdicio novaTela = new FrmDesperdicio(/*usuarioLogado*/);
+            FrmDesperdicio novaTela = new FrmDesperdicio(usuarioLogado);
 
             novaTela.Show();
             this.Hide();
@@ -161,7 +164,7 @@ namespace AdegaStockFlow
 
         private void btnHistoricoDesperdicio_Click(object sender, EventArgs e)
         {
-            FrmHistoricoDesperdicio novaTela = new FrmHistoricoDesperdicio(/*usuarioLogado*/);
+            FrmHistoricoDesperdicio novaTela = new FrmHistoricoDesperdicio(usuarioLogado);
 
             novaTela.Show();
             this.Hide();

@@ -126,13 +126,10 @@
     <value>Script MT Bold, 72pt, style=Bold, Italic</value>
   </data>
   <data name="lblStockFlow.Location" type="System.Drawing.Point, System.Drawing">
-    <value>426, 183</value>
-  </data>
-  <data name="lblStockFlow.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>284, 119</value>
   </data>
   <data name="lblStockFlow.Size" type="System.Drawing.Size, System.Drawing">
-    <value>690, 171</value>
+    <value>460, 111</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="lblStockFlow.TabIndex" type="System.Int32, mscorlib">
@@ -156,70 +153,64 @@
   <data name="&gt;&gt;lblStockFlow.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="txtBoxUser.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="txtLogin.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="txtBoxUser.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="txtLogin.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 20.25pt</value>
   </data>
-  <data name="txtBoxUser.Location" type="System.Drawing.Point, System.Drawing">
-    <value>516, 524</value>
+  <data name="txtLogin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>344, 341</value>
   </data>
-  <data name="txtBoxUser.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+  <data name="txtLogin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>370, 38</value>
   </data>
-  <data name="txtBoxUser.Size" type="System.Drawing.Size, System.Drawing">
-    <value>553, 53</value>
-  </data>
-  <data name="txtBoxUser.TabIndex" type="System.Int32, mscorlib">
+  <data name="txtLogin.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="txtBoxUser.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+  <data name="txtLogin.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
     <value>Center</value>
   </data>
-  <data name="&gt;&gt;txtBoxUser.Name" xml:space="preserve">
-    <value>txtBoxUser</value>
+  <data name="&gt;&gt;txtLogin.Name" xml:space="preserve">
+    <value>txtLogin</value>
   </data>
-  <data name="&gt;&gt;txtBoxUser.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtLogin.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;txtBoxUser.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtLogin.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;txtBoxUser.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtLogin.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="txtBoxSenha.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="txtSenha.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="txtBoxSenha.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="txtSenha.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 20.25pt</value>
   </data>
-  <data name="txtBoxSenha.Location" type="System.Drawing.Point, System.Drawing">
-    <value>513, 677</value>
+  <data name="txtSenha.Location" type="System.Drawing.Point, System.Drawing">
+    <value>342, 440</value>
   </data>
-  <data name="txtBoxSenha.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+  <data name="txtSenha.Size" type="System.Drawing.Size, System.Drawing">
+    <value>370, 38</value>
   </data>
-  <data name="txtBoxSenha.Size" type="System.Drawing.Size, System.Drawing">
-    <value>553, 53</value>
-  </data>
-  <data name="txtBoxSenha.TabIndex" type="System.Int32, mscorlib">
+  <data name="txtSenha.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="txtBoxSenha.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+  <data name="txtSenha.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
     <value>Center</value>
   </data>
-  <data name="&gt;&gt;txtBoxSenha.Name" xml:space="preserve">
-    <value>txtBoxSenha</value>
+  <data name="&gt;&gt;txtSenha.Name" xml:space="preserve">
+    <value>txtSenha</value>
   </data>
-  <data name="&gt;&gt;txtBoxSenha.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtSenha.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;txtBoxSenha.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtSenha.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;txtBoxSenha.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtSenha.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
   <data name="lblRecuperarSenha.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
@@ -229,13 +220,10 @@
     <value>Microsoft Sans Serif, 12pt, style=Underline</value>
   </data>
   <data name="lblRecuperarSenha.Location" type="System.Drawing.Point, System.Drawing">
-    <value>803, 735</value>
-  </data>
-  <data name="lblRecuperarSenha.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>535, 478</value>
   </data>
   <data name="lblRecuperarSenha.Size" type="System.Drawing.Size, System.Drawing">
-    <value>266, 40</value>
+    <value>177, 26</value>
   </data>
   <data name="lblRecuperarSenha.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -262,13 +250,10 @@
     <value>Microsoft Sans Serif, 14.25pt</value>
   </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>510, 484</value>
-  </data>
-  <data name="label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>340, 315</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 35</value>
+    <value>79, 23</value>
   </data>
   <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
@@ -295,13 +280,10 @@
     <value>Microsoft Sans Serif, 14.25pt</value>
   </data>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>510, 635</value>
-  </data>
-  <data name="label4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>340, 413</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 37</value>
+    <value>66, 24</value>
   </data>
   <data name="label4.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -331,13 +313,13 @@
     <value>Arial Rounded MT Bold, 16.2pt</value>
   </data>
   <data name="btnEntrar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>661, 807</value>
+    <value>441, 525</value>
   </data>
   <data name="btnEntrar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="btnEntrar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>255, 58</value>
+    <value>170, 38</value>
   </data>
   <data name="btnEntrar.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -367,10 +349,13 @@
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
   </data>
   <data name="lbl_sair.Location" type="System.Drawing.Point, System.Drawing">
-    <value>31, 979</value>
+    <value>21, 636</value>
+  </data>
+  <data name="lbl_sair.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
   </data>
   <data name="lbl_sair.Size" type="System.Drawing.Size, System.Drawing">
-    <value>71, 29</value>
+    <value>52, 20</value>
   </data>
   <data name="lbl_sair.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
@@ -397,7 +382,7 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>9, 20</value>
+    <value>6, 13</value>
   </data>
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -8367,10 +8352,7 @@
     <value>Stretch</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1616, 1059</value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>1077, 688</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>

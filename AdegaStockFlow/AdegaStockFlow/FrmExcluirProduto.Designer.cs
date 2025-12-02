@@ -89,7 +89,7 @@
             this.btnExcluirProduto.Name = "btnExcluirProduto";
             this.btnExcluirProduto.Size = new System.Drawing.Size(82, 48);
             this.btnExcluirProduto.TabIndex = 3;
-            this.btnExcluirProduto.Text = "Excluir";
+            this.btnExcluirProduto.Text = "Desativar";
             this.btnExcluirProduto.UseVisualStyleBackColor = true;
             this.btnExcluirProduto.Click += new System.EventHandler(this.btnExcluirProduto_Click);
             // 
@@ -129,7 +129,7 @@
             this.groupBox2.Size = new System.Drawing.Size(676, 426);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Excluir Produtos";
+            this.groupBox2.Text = "Desativar Produtos";
             // 
             // btnExcluir
             // 
@@ -137,7 +137,7 @@
             this.btnExcluir.Name = "btnExcluir";
             this.btnExcluir.Size = new System.Drawing.Size(110, 23);
             this.btnExcluir.TabIndex = 8;
-            this.btnExcluir.Text = "Excluir";
+            this.btnExcluir.Text = "Desativar";
             this.btnExcluir.UseVisualStyleBackColor = true;
             this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 

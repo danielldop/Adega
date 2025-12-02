@@ -30,8 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaLogin));
             this.lblStockFlow = new System.Windows.Forms.Label();
-            this.txtBoxUser = new System.Windows.Forms.TextBox();
-            this.txtBoxSenha = new System.Windows.Forms.TextBox();
+            this.txtLogin = new System.Windows.Forms.TextBox();
+            this.txtSenha = new System.Windows.Forms.TextBox();
             this.lblRecuperarSenha = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -47,20 +47,20 @@
             this.lblStockFlow.Name = "lblStockFlow";
             this.lblStockFlow.Click += new System.EventHandler(this.lblStockFlow_Click);
             // 
-            // txtBoxUser
+            // txtLogin
             // 
-            resources.ApplyResources(this.txtBoxUser, "txtBoxUser");
-            this.txtBoxUser.Name = "txtBoxUser";
-            this.txtBoxUser.Enter += new System.EventHandler(this.txtBoxUser_Enter);
-            this.txtBoxUser.Leave += new System.EventHandler(this.txtBoxUser_Leave);
+            resources.ApplyResources(this.txtLogin, "txtLogin");
+            this.txtLogin.Name = "txtLogin";
+            this.txtLogin.Enter += new System.EventHandler(this.txtBoxUser_Enter);
+            this.txtLogin.Leave += new System.EventHandler(this.txtBoxUser_Leave);
             // 
-            // txtBoxSenha
+            // txtSenha
             // 
-            resources.ApplyResources(this.txtBoxSenha, "txtBoxSenha");
-            this.txtBoxSenha.Name = "txtBoxSenha";
-            this.txtBoxSenha.UseSystemPasswordChar = true;
-            this.txtBoxSenha.Enter += new System.EventHandler(this.txtBoxSenha_Enter);
-            this.txtBoxSenha.Leave += new System.EventHandler(this.txtBoxSenha_Leave);
+            resources.ApplyResources(this.txtSenha, "txtSenha");
+            this.txtSenha.Name = "txtSenha";
+            this.txtSenha.UseSystemPasswordChar = true;
+            this.txtSenha.Enter += new System.EventHandler(this.txtBoxSenha_Enter);
+            this.txtSenha.Leave += new System.EventHandler(this.txtBoxSenha_Leave);
             // 
             // lblRecuperarSenha
             // 
@@ -113,8 +113,8 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.lblRecuperarSenha);
-            this.Controls.Add(this.txtBoxSenha);
-            this.Controls.Add(this.txtBoxUser);
+            this.Controls.Add(this.txtSenha);
+            this.Controls.Add(this.txtLogin);
             this.Controls.Add(this.lblStockFlow);
             this.Name = "TelaLogin";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -127,8 +127,8 @@
         #endregion
 
         private System.Windows.Forms.Label lblStockFlow;
-        private System.Windows.Forms.TextBox txtBoxUser;
-        private System.Windows.Forms.TextBox txtBoxSenha;
+        private System.Windows.Forms.TextBox txtLogin;
+        private System.Windows.Forms.TextBox txtSenha;
         private System.Windows.Forms.Label lblRecuperarSenha;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;

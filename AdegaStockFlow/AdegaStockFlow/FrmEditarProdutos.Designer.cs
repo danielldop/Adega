@@ -35,6 +35,7 @@
             this.btnEditarProduto = new System.Windows.Forms.Button();
             this.btnAdicionarProduto = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.txtQtdEntrada = new System.Windows.Forms.TextBox();
             this.btnEditar = new System.Windows.Forms.Button();
             this.txtValorVenda = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -42,7 +43,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.cmbProduto = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtQtdEntrada = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -90,7 +90,7 @@
             this.btnExcluirProduto.Name = "btnExcluirProduto";
             this.btnExcluirProduto.Size = new System.Drawing.Size(82, 48);
             this.btnExcluirProduto.TabIndex = 3;
-            this.btnExcluirProduto.Text = "Excluir";
+            this.btnExcluirProduto.Text = "Desativar";
             this.btnExcluirProduto.UseVisualStyleBackColor = true;
             this.btnExcluirProduto.Click += new System.EventHandler(this.btnExcluirProduto_Click);
             // 
@@ -132,6 +132,14 @@
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Editar Produtos";
+            // 
+            // txtQtdEntrada
+            // 
+            this.txtQtdEntrada.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtQtdEntrada.Location = new System.Drawing.Point(528, 54);
+            this.txtQtdEntrada.Name = "txtQtdEntrada";
+            this.txtQtdEntrada.Size = new System.Drawing.Size(42, 20);
+            this.txtQtdEntrada.TabIndex = 22;
             // 
             // btnEditar
             // 
@@ -194,14 +202,6 @@
             this.label1.Size = new System.Drawing.Size(44, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Produto";
-            // 
-            // txtQtdEntrada
-            // 
-            this.txtQtdEntrada.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtQtdEntrada.Location = new System.Drawing.Point(528, 54);
-            this.txtQtdEntrada.Name = "txtQtdEntrada";
-            this.txtQtdEntrada.Size = new System.Drawing.Size(42, 20);
-            this.txtQtdEntrada.TabIndex = 22;
             // 
             // FrmEditarProdutos
             // 

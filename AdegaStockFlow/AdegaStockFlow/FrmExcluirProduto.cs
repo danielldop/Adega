@@ -19,6 +19,9 @@ namespace AdegaStockFlow
         {
             InitializeComponent();
             usuarioLogado = idUsuario;
+
+            this.WindowState = FormWindowState.Maximized;
+            this.FormBorderStyle = FormBorderStyle.None;
         }
 
         private void btnAdicionarProduto_Click(object sender, EventArgs e)
@@ -64,7 +67,7 @@ namespace AdegaStockFlow
                 {
                     conexao.Open();
 
-                    string sql = "SELECT cod_produto, nome_produto FROM produtos ORDER BY nome_produto;";
+                    string sql = "SELECT cod_produto, nome_produto FROM produtos WHERE ativo = 1 ORDER BY nome_produto";
 
                     using (var cmd = new MySqlCommand(sql, conexao))
                     using (var da = new MySqlDataAdapter(cmd))
@@ -94,22 +97,23 @@ namespace AdegaStockFlow
         {
             if (cmbProduto.SelectedIndex == -1)
             {
-                MessageBox.Show("Selecione um produto para excluir.");
+                MessageBox.Show("Selecione um produto para desativar.");
                 return;
             }
 
-            
-            if (!int.TryParse(txtLogin.Text.Trim(), out int login))
+
+            string login = txtLogin.Text.Trim();
+            string senha = txtSenha.Text.Trim();
+
+            if (string.IsNullOrEmpty(login))
             {
-                MessageBox.Show("Informe um login numérico válido.");
-                txtLogin.Focus();
+                MessageBox.Show("Informe o login.");
                 return;
             }
 
-            if (!int.TryParse(txtSenha.Text.Trim(), out int senha))
+            if (string.IsNullOrEmpty(senha))
             {
-                MessageBox.Show("Informe uma senha numérica válida.");
-                txtSenha.Focus();
+                MessageBox.Show("Informe a senha.");
                 return;
             }
 
@@ -145,26 +149,25 @@ namespace AdegaStockFlow
 
                     
                     var result = MessageBox.Show(
-                        "Tem certeza que deseja excluir este produto?",
-                        "Confirmar exclusão",
+                        "Tem certeza que deseja desativar este produto?",
+                        "Confirmar",
                         MessageBoxButtons.YesNo,
                         MessageBoxIcon.Warning);
 
                     if (result == DialogResult.No)
                         return;
 
-                    
-                    string sqlDelete = "DELETE FROM produtos WHERE cod_produto = @id;";
 
-                    using (var cmdDel = new MySqlCommand(sqlDelete, conexao))
+                    string sql = "UPDATE produtos SET ativo = 0 WHERE cod_produto = @id";
+
+                    using (var cmd = new MySqlCommand(sql, conexao))
                     {
-                        cmdDel.Parameters.AddWithValue("@id", codProduto);
-
-                        int linhas = cmdDel.ExecuteNonQuery();
+                        cmd.Parameters.AddWithValue("@id", codProduto);
+                        int linhas = cmd.ExecuteNonQuery();
 
                         if (linhas > 0)
                         {
-                            MessageBox.Show("Produto excluído com sucesso!");
+                            MessageBox.Show("Produto desativado com sucesso!");
 
                             txtLogin.Clear();
                             txtSenha.Clear();
@@ -173,13 +176,13 @@ namespace AdegaStockFlow
                         }
                         else
                         {
-                            MessageBox.Show("Nenhum produto foi excluído. Verifique se ele ainda existe.");
+                            MessageBox.Show("Nenhum produto foi desativado. Verifique se ele ainda existe.");
                         }
                     }
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("Erro ao excluir produto: " + ex.Message);
+                    MessageBox.Show("Erro ao desativar produto: " + ex.Message);
                 }
             }
         }
